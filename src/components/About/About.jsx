@@ -1,10 +1,13 @@
 import about from '../../assets/about.jpg'
 import imoji from '../../assets/imoji1.png'
 import Container from '../Container/Container'
+import Navbar from '../Navbar/Navbar'
 
 const About = () => {
   return (
-    <div className='relative bg-gray-800 pt-[200px] pb-[100px] font-main'>
+   <>
+   <Navbar></Navbar>
+    <div className='relative bg-gray-800 pt-[250px] pb-[128px] font-main'>
         <Container>
             <div className='flex justify-between items-center space-x-[150px]'>
                 <div className='w-[50%]'>
@@ -18,9 +21,10 @@ const About = () => {
             </div>
         </Container>
         <div>
-            <img src={imoji} alt="" className='absolute top-[170px] right-[470px] w-[100px] h-[100px] rounded-[50%]'/>
+            <img src={imoji} alt="" className='absolute top-[220px] right-[470px] w-[100px] h-[100px] rounded-[50%]'/>
         </div>
     </div>
+   </>
   )
 }
 

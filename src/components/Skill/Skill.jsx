@@ -7,14 +7,17 @@ import { FaBootstrap } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { IoLogoFigma } from "react-icons/io5";
 import { FaHtml5 } from "react-icons/fa";
+import Navbar from '../Navbar/Navbar';
 
 
 
 const Skill = () => {
   return (
-    <div className='pt-[100px] pb-[100px] bg-gray-800 font-main'>
+    <>
+    <Navbar></Navbar>
+     <div className='pt-[125px] pb-[39px] bg-gray-800 font-main'>
         <Container>
-            <h2 className=' uppercase text-4xl text-[#06fada] font-bold text-center mb-[60px]'>ski<span className='text-[#ffff00]'>ll</span></h2>
+            <h2 className=' uppercase text-4xl text-[#06fada] font-bold text-center mb-[30px]'>ski<span className='text-[#ffff00]'>ll</span></h2>
             <div className='flex justify-between'>
                 <div  className='border-4 border-[#06fada] py-[40px] px-[40px] w-[260px] rounded-[15px]'>
                    <IoLogoFigma className='text-white text-6xl ml-[50px]'/>
@@ -79,6 +82,8 @@ const Skill = () => {
             </div>
         </Container>
     </div>
+    </>
+   
   )
 }
 

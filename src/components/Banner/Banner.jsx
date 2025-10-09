@@ -1,9 +1,12 @@
 import banner from "../../assets/banner.jpg"
 import Container from '../Container/Container'
+import Navbar from "../Navbar/Navbar"
 
 const Banner = () => {
   return (
-    <div className="bg-gray-900 font-main pt-[120px] py-[100px]">
+    <>
+      <Navbar></Navbar>
+         <div className="bg-gray-900 font-main pt-[250px] py-[102px]">
         <Container>
             <div className="flex justify-between items-center">
                 <div className="w-[70%]">
@@ -19,6 +22,8 @@ const Banner = () => {
             </div>
         </Container>
     </div>
+    </>
+ 
   )
 }
 
