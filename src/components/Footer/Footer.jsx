@@ -11,7 +11,7 @@ import {Link} from "react-router"
 const Footer = () => {
     return (
         <>
-        <Navbar></Navbar>
+        {/* <Navbar></Navbar> */}
          <div className='bg-gray-900 pt-[243px] pb-[100px]'>
             <Container>
                 <div className='font-main'>

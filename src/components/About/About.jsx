@@ -6,7 +6,7 @@ import Navbar from '../Navbar/Navbar'
 const About = () => {
   return (
    <>
-   <Navbar></Navbar>
+   {/* <Navbar></Navbar> */}
     <div className='relative bg-gray-800 pt-[250px] pb-[128px] font-main'>
         <Container>
             <div className='flex justify-between items-center space-x-[150px]'>

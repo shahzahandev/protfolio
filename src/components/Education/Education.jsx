@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar'
 const Education = () => {
     return (
        <>
-       <Navbar></Navbar>
+       {/* <Navbar></Navbar> */}
         <div className='pt-[150px] pb-[48px] bg-gray-900 font-main'>
             <Container>
                 <h2 className='text-4xl text-[#06fada] font-bold uppercase text-center'>Educational <span className='text-[#ffff00]'>information</span></h2>

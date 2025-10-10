@@ -5,7 +5,7 @@ import Navbar from "../Navbar/Navbar"
 const Banner = () => {
   return (
     <>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
          <div className="bg-gray-900 font-main pt-[250px] py-[102px]">
         <Container>
             <div className="flex justify-between items-center">

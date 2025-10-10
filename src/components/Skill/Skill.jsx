@@ -14,7 +14,7 @@ import Navbar from '../Navbar/Navbar';
 const Skill = () => {
   return (
     <>
-    <Navbar></Navbar>
+    {/* <Navbar></Navbar> */}
      <div className='pt-[125px] pb-[39px] bg-gray-800 font-main'>
         <Container>
             <h2 className=' uppercase text-4xl text-[#06fada] font-bold text-center mb-[30px]'>ski<span className='text-[#ffff00]'>ll</span></h2>
