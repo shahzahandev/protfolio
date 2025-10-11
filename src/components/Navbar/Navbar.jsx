@@ -1,5 +1,5 @@
 import Container from '../Container/Container'
-import {Link} from "react-router"
+import {NavLink} from "react-router"
 
 const Navbar = () => {
   return (
@@ -9,23 +9,24 @@ const Navbar = () => {
                 <div className='text-[#06fada] capitalize text-4xl font-bold'>frontend <span className='text-[#ffff00]'>developer</span></div>
                 <div>
                        <ul className="flex items-center space-x-[47px] text-white pt-[27px] pb-[27px]">
-                            <li>
-                                <Link to="/banner" className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#06fada]">Home</Link>
+                            <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#06fada]">
+                                <NavLink  className={(e) => {return e.isActive?"red": ""}} to="/banner" >Home</NavLink>
                             </li>
-                            <li>
-                                <Link to="/about" className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#06fada]">About</Link>
+                            <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#06fada]">
+                                <NavLink  className={(e) => {return e.isActive?"red": ""}} to="/about" >About</NavLink>
                             </li>
-                            <li>
-                                <Link to="/education" className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#06fada]">Services</Link>
+                            <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#06fada] " >
+                                <NavLink  to="/education" className={(e) => {return e.isActive?"red": ""}}>Services</NavLink>
                             </li>
-                            <li>
-                                <Link to="/skill" className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#06fada]">Gallery</Link>
+                            <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#06fada]">
+                                <NavLink  className={(e) => {return e.isActive?"red": ""}} to="/skill" >Gallery</NavLink>
                             </li>
-                            <li>
-                                <Link to="/footer" className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#06fada]">Blog</Link>
-                            </li>
-                            <li>
-                                <Link to="" className="font-semibold text-[16px] border-2 border-[#ffff00] py-[13px] px-[31px] bg-gray-600 rounded-[15px] transition-all duration-300 ease-in hover:bg-transparent animate-pulse hover:text-[#06fada] hover:border-[#06dafa]">CONTACT</Link>
+                            <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#06fada]"><NavLink to="/footer" className={(e) => {return e.isActive? "red" : ""}}>blog</NavLink></li>
+                            {/* <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#06fada]" to="/footer">
+                                <NavLink  className={(e) => {return e.isActive ?"red": ""}} >Blog</NavLink>
+                            </li> */}
+                            <li >
+                                <button className="font-semibold text-[16px] border-2 border-[#ffff00] py-[13px] px-[31px] bg-gray-600 rounded-[15px] transition-all duration-300 ease-in hover:bg-transparent animate-pulse hover:text-[#06fada] hover:border-[#06dafa]" >CONTACT</button>
                             </li>
                         </ul>
                 </div>
