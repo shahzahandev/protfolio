@@ -9,8 +9,6 @@ import { IoLogoFigma } from "react-icons/io5";
 import { FaHtml5 } from "react-icons/fa";
 import Navbar from '../Navbar/Navbar';
 
-
-
 const Skill = () => {
   return (
     <>
