@@ -13,7 +13,7 @@ const Navbar = () => {
                                 <NavLink  className={(e) => {return e.isActive?"red": ""}} to="/" >Home</NavLink>
                             </li>
                             <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
-                                <NavLink  className={(e) => {return e.isActive?"red": ""}} to="/about" >About</NavLink>
+                                <NavLink  className={(e) => {return e.isActive?"red": ""}} to="/about" >Services</NavLink>
                             </li>
                             <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199]  " >
                                 <NavLink  to="/education" className={(e) => {return e.isActive?"red": ""}}>Resume</NavLink>
@@ -21,9 +21,10 @@ const Navbar = () => {
                             <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
                                 <NavLink  className={(e) => {return e.isActive?"red": ""}} to="/skill" >Work</NavLink>
                             </li>
-                            <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] "><NavLink to="/footer" className={(e) => {return e.isActive? "red" : ""}}>Contact</NavLink></li>
+                            <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] cursor-pointer">Contact</li>
                             <li >
-                                <button className="font-semibold text-[16px] border-2 border-white py-[10px] px-[31px] bg-transparent rounded-[50px] cursor-pointer transition-all duration-300 ease-in hover:bg-transparent hover:text-[#0cf199] hover:border-[#0cf199]" >Hire me</button>
+                                <NavLink to="/footer" className={(e) => {return e.isActive? "red" : ""}}>  <button className="font-semibold text-[16px] border-2 border-white py-[10px] px-[31px] bg-transparent rounded-[50px] cursor-pointer transition-all duration-300 ease-in hover:bg-transparent hover:text-[#0cf199] hover:border-[#0cf199]" >Hire me</button></NavLink>
+                              
                             </li>
                         </ul>
                 </div>

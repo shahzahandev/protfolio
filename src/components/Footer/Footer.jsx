@@ -55,10 +55,10 @@ const Footer = () => {
                             <h3 className='text-[#0cf199] text-2xl capitalize font-semibold mb-[20px]'>over view</h3>
                         <ul className='space-y-2 flex space-x-6'>
                             <li className='text-white capitalize font-medium text-[14px] transition-all duration-300 hover:text-[#0cf199]'><Link to="/banner">home</Link></li>
-                            <li className='text-white capitalize font-medium text-[14px] transition-all duration-300 hover:text-[#0cf199]'><Link to="/about">about</Link></li>
+                            <li className='text-white capitalize font-medium text-[14px] transition-all duration-300 hover:text-[#0cf199]'><Link to="/about">services</Link></li>
                             <li className='text-white capitalize font-medium text-[14px] transition-all duration-300 hover:text-[#0cf199]'><Link to="/education">resume</Link></li>
                             <li className='text-white capitalize font-medium text-[14px] transition-all duration-300 hover:text-[#0cf199]'><Link to="/skill">work</Link></li>
-                            <li className='text-white capitalize font-medium text-[14px] transition-all duration-300 hover:text-[#0cf199] cursor-pointer'><Link to="/footer"></Link>contact</li>
+                            <li className='text-white capitalize font-medium text-[14px] transition-all duration-300 hover:text-[#0cf199] cursor-pointer'><Link to=""></Link>contact</li>
                         </ul>
                         </div>
                         <div className='mt-15'>
@@ -101,7 +101,7 @@ const Footer = () => {
                                     ></textarea>
                                      </div>
                                     <div className='flex justify-center text-center w-full'>
-                                        <button className=" py-[13px] border-2 w-full border-[#0cf199] rounded-[50px] bg-transparent text-[14px] font-semibold text-[#0cf199] transition-all duration-300 ease-in hover:border-white hover:text-white text-center capitalize">Send a message</button>
+                                        <button className=" py-[13px] border-2 w-full border-[#0cf199] rounded-[50px]  text-[16px] font-bold bg-[#0cf199] transition-all duration-300 ease-in hover:border-white hover:text-white hover:bg-gray-700 text-center capitalize ">Send a message</button>
                                     </div>
                                 </div>
                             </div>

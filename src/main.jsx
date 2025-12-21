@@ -13,6 +13,7 @@ import MainRoot from './components/MainRoot/MainRoot.jsx';
 import EducationInfo from './components/Education/EducationInfo.jsx';
 import EducationSkill from './components/Education/EducationSkill.jsx';
 import Experience from './components/Education/Experience.jsx';
+import Info from './components/Education/Info.jsx';
 
 const router = createBrowserRouter([
   //   {
@@ -48,6 +49,7 @@ const router = createBrowserRouter([
       {path: "educationInfo", Component:EducationInfo},
       {path: "educationSkill", Component: EducationSkill},
       {path:"/Experience", Component: Experience},
+      {path: "/Info", Component: Info}
     ]
   }
 ]);
