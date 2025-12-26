@@ -37,7 +37,7 @@ const Navbar = () => {
                   </div>
 
              <div className='flex justify-between items-center md:hidden md:px-0 px-5'>
-                <div className='text-white capitalize text-4xl font-bold tracking-[2px]'>siraj<span className='text-[#0cf199] font-bold ml-1'>.</span></div>
+                <div className='text-white capitalize md:text-4xl text-3xl font-bold tracking-[2px]'>siraj<span className='text-[#0cf199] font-bold ml-1'>.</span></div>
                 <div>
                     {
                         show ?
@@ -67,7 +67,7 @@ const Navbar = () => {
                     }
                       <div>
                             { show ? (
-                                      <ImCross onClick={() => setShow(!show)} className="text-white text-2xl animate-pulse" />
+                                      <ImCross onClick={() => setShow(!show)} className="text-red-500 text-2xl animate-pulse" />
                                      ) : 
                                      (
                                      <FaBarsProgress onClick={() => setShow(!show)} className="text-white text-2xl" />
