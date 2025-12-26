@@ -14,9 +14,25 @@ import EducationInfo from './components/Education/EducationInfo.jsx';
 import EducationSkill from './components/Education/EducationSkill.jsx';
 import Experience from './components/Education/Experience.jsx';
 import Info from './components/Education/Info.jsx';
+import Work from './components/Skill/Work.jsx';
 
 const router = createBrowserRouter([
-  //   {
+  {
+    path: "/",
+    Component: MainRoot,
+    children: [
+      { path: "/", Component: Banner },
+      { path: "/about", Component: About },
+      { path: "/education", Component: Education },
+      { path: "skill", Component: Work },
+      { path: "/footer", Component: Footer },
+      { path: "educationInfo", Component:EducationInfo},
+      { path: "educationSkill", Component: EducationSkill},
+      { path:"/Experience", Component: Experience},
+      { path: "/Info", Component: Info}
+    ]
+  }
+    //   {
   //   path: "/banner",
   //   element: <Banner></Banner>,
   // },
@@ -36,22 +52,6 @@ const router = createBrowserRouter([
   //   path: "/footer",
   //   element: <Footer></Footer>,
   // },
-
-  {
-    path: "/",
-    Component: MainRoot,
-    children: [
-      { path: "/", Component: Banner },
-      { path: "/about", Component: About },
-      { path: "/education", Component: Education },
-      { path: "skill", Component: Skill },
-      { path: "/footer", Component: Footer },
-      {path: "educationInfo", Component:EducationInfo},
-      {path: "educationSkill", Component: EducationSkill},
-      {path:"/Experience", Component: Experience},
-      {path: "/Info", Component: Info}
-    ]
-  }
 ]);
 
 createRoot(document.getElementById('root')).render(

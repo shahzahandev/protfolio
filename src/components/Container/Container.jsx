@@ -1,7 +1,7 @@
 
 const Container = ({children}) => {
   return (
-    <div className='w-[1220px] mx-auto'>{children}</div>
+    <div className='md:w-[1220px] mx-auto'>{children}</div>
   )
 }
 
