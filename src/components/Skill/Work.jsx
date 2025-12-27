@@ -20,7 +20,7 @@ const Work = () => {
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
-      autoplay={{ delay: 5000 }}
+      autoplay={{ delay: 50000 }}
       loop={true}
     >
     <SwiperSlide>
