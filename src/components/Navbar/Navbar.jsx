@@ -36,12 +36,12 @@ const Navbar = () => {
                 </div>
                   </div>
 
-             <div className='flex justify-between items-center md:hidden md:px-0 px-5'>
+             <div className='flex justify-between items-center md:hidden md:px-0 px-5 py-5'>
                 <div className='text-white capitalize md:text-4xl text-3xl font-bold tracking-[2px]'>siraj<span className='text-[#0cf199] font-bold ml-1'>.</span></div>
                 <div>
                     {
                         show ?
-                           <ul className="bg-gray-700 absolute top-0 right-0 flex  flex-col w-[160px] h-[480px] items-center space-y-10 text-white pt-[70px] pb-[27px] tracking-[2px] rounded-tl-[180px] rounded-bl-[10px]">
+                           <ul className="bg-gray-700 absolute top-0 right-0 flex  flex-col w-[160px] h-[500px] items-center space-y-10 text-white pt-[100px] pb-[27px] tracking-[2px] rounded-tl-[180px] rounded-bl-[10px]">
                             <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
                                 <NavLink  className={(e) => {return e.isActive?"red": ""}} to="/" >Home</NavLink>
                             </li>

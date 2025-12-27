@@ -9,8 +9,8 @@ const Project3 = () => {
      <>
        <div className='md:pt-[150px] pt-[100px] md:pb-[150px] pb-[120px] bg-gray-800 font-primary md:tracking-[1.5px] tracking-normal'>
                 <Container>
-                    <div className='flex md:justify-between md:flex-row flex-col items-center md:space-x-[50px]'>
-                        <div className='md:w-[50%] border-b-2 text-white/50 pb-10 md:px-0'>
+                    <div className='flex md:justify-between md:flex-row flex-col items-center md:space-x-[50px] space-y-15'>
+                        <div className='md:w-[50%] border-b-2 text-white/50 md:pb-10 pb-5 md:px-0'>
                             <h3 className='md:text-8xl text-6xl text-white uppercase font-bold'>03</h3>
                             <h2 className='md:text-4xl text-2xl text-[#0cf199] font-bold  mt-[20px] tracking-[3px]'>Frontend Project <span className='md:text-2xl text-[16px] md:ml-3 tracking-[1px] inline-block'>( Guess Game )</span></h2>
                             <p className='md:mt-[20px] mt-[10px] md:text-[16px] text-[14px] font-medium text-[#c9c4c4] md:w-auto w-[320px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere animi voluptate harum iste id non et temporibusagni dignptates consequatur in quae officiis dolorem deleniti amet?</p>

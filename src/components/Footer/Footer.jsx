@@ -12,14 +12,13 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
     return (
         <>
-            {/* <Navbar></Navbar> */}
-            <div className='bg-gray-900 pt-[130px] pb-[20px] tracking-[1.5px]'>
+            <div className='bg-gray-900 md:pt-[130px] pt-[100px] md:pb-[30px] pb-[50px] md:tracking-[1.5px] tracking-[1px]'>
                 <Container>
-                    <div className='font-primary w-full flex rounded-2xl bg-gray-700'>
-                        <div className='w-[40%] px-10 py-10 rounded-tl-2xl rounded-bl-2xl'>
-                        <div className='space-y-2'>
+                    <div className='font-primary md:w-full flex md:flex-row flex-col rounded-2xl bg-transparent'>
+                        <div className='md:w-[40%] md:px-10 py-10 rounded-tl-2xl rounded-bl-2xl'>
+                        <div className='md:space-y-2'>
                             <h3 className='text-2xl font-bold text-[#0cf199] mb-5 tracking-[1.5px]'>For private</h3>
-                          <div className='flex flex-col space-y-15 mt-8'>
+                          <div className='flex flex-col md:space-y-15 space-y-10 md:mt-8 mt-5'>
                               <div className='flex items-center space-x-5'>
                               <div className='p-2 bg-[#0cf199]/10 rounded-[5px]'>
                                   <MdOutlineMarkEmailUnread className="text-[36px] text-[#0cf199]" />
@@ -52,14 +51,14 @@ const Footer = () => {
                         </div>
                        
                         </div>
-                        <div className='w-[60%] px-5'>
-                            <div className='py-10 px-5'>
-                                <h2 className='text-2xl font-bold text-[#0cf199] mb-5 tracking-[1.5px]'>Let's work together</h2>
-                                  <p className="text-[16px] text-[#c9c4c4] tracking-[2px] leading-7 mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ius esse corporisibero magnam iste dignissimos.</p>
+                        <div className='md:w-[60%] md:px-5'>
+                            <div className='md:py-10 py-5 md:px-5'>
+                                <h2 className='text-2xl font-bold text-[#0cf199] md:mb-5 mb-3 tracking-[1.5px]'>Let's work together</h2>
+                                  <p className="md:text-[16px] text-[14px] text-[#c9c4c4] md:tracking-[2px] md:leading-7 leading-6 mb-5 md:w-auto w-[300px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ius esse corporisibero magnam iste dignissimos.</p>
                                 <div className='flex flex-col space-y-5'>
-                                    <input type="text" placeholder='Give your full name here' className='text-white border border-gray-300 rounded-[15px] px-5 py-4  cursor-pointer text-[18px] outline-none  focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/40' />
-                                    <input type="text" placeholder='Give your gmail address ' className='text-white border border-gray-300 rounded-[15px] px-5 py-4  cursor-pointer text-[18px] outline-none  focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/40' />
-                                    <input type="text" placeholder='Give your country name ' className='text-white border border-gray-300 rounded-[15px] px-5 py-4  cursor-pointer text-[18px] outline-none focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/40 ' />
+                                    <input type="text" placeholder='Give your full name here' className='text-white border border-gray-300 rounded-[15px] px-5 py-4  cursor-pointer md:text-[18px] outline-none  focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/40' />
+                                    <input type="text" placeholder='Give your gmail address ' className='text-white border border-gray-300 rounded-[15px] px-5 py-4  cursor-pointer md:text-[18px] outline-none  focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/40' />
+                                    <input type="text" placeholder='Give your country name ' className='text-white border border-gray-300 rounded-[15px] px-5 py-4  cursor-pointer md:text-[18px] outline-none focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/40 ' />
                                      <div>
                                          <label className="font-medium text-[#0cf199]">
                                         Add a comment
@@ -67,7 +66,7 @@ const Footer = () => {
                                     <textarea
                                         rows="3"
                                         placeholder="Write your comment..."
-                                        className="mt-2 w-full resize-none rounded-[15px] text-white border border-gray-300 p-3 text-[18px]
+                                        className="mt-2 w-full resize-none rounded-[15px] text-white border border-gray-300 p-3 md:text-[18px]
                                     focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/20 
                                       outline-none transition"
                                     ></textarea>
