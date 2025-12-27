@@ -33,7 +33,7 @@ const Info = () => {
                                     </div>
                                     <div className='flex flex-col md:space-y-10 space-y-5 tracking-[.75px] md:w-[50%] md:px-2 md:py-5 md:mt-0 mt-3'>
                                         <h3 className='md:text-[20px] text-[18px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>phone </span> 01785-405909</h3>
-                                        <h3 className='md:text-[20px] text-[18px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>github </span> shahzahandev</h3>
+                                        <h3 className='md:text-[20px] text-[18px] text-white font-semibold'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>github </span> github.com/shahzahandev</h3>
                                         <h3 className='text-[18px] text-white font-semibold '><span className='text-[16px] text-[#c9c4c4] lowercase mr-4'>email </span> shahzahansiraj516@gmail.com</h3>
                                         <h3 className='md:text-[20px] text-[18px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>languages </span> Bangla, Hindi, English</h3>
                                     </div>

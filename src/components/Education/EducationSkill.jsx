@@ -9,6 +9,8 @@ import { FaBootstrap } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { IoLogoFigma } from "react-icons/io5";
 import { FaHtml5 } from "react-icons/fa";
+import { BiLogoFirebase } from "react-icons/bi";
+
 
 const EducationSkill = () => {
     return (
@@ -33,45 +35,45 @@ const EducationSkill = () => {
                         </div>
                             <div className='h-[450px] overflow-y-scroll md:px-5 py-2 tracking-[2px]'>
                                 <div className='flex justify-between items-center'>
-                                    <div className='flex flex-col items-center wmd:-[200px]  w-[110px] bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <IoLogoFigma className='text-white md:text-8xl text-5xl' />
+                                    <div className='flex flex-col items-center md:w-[200px]  w-[110px] bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
+                                        <IoLogoFigma className='text-white md:text-8xl text-5xl animate-pulse' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>figma</h2>
                                     </div>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <FaHtml5 className='text-white md:text-8xl text-5xl' />
+                                        <FaHtml5 className='text-white md:text-8xl text-5xl animate-bounce' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>html</h2>
                                     </div>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <FaCss3 className='text-white md:text-8xl text-5xl' />
+                                        <FaCss3 className='text-white md:text-8xl text-5xl animate-pulse' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>css</h2>
                                     </div>
                                 </div>
                                 <div className='flex justify-between items-center md:mt-10 mt-3'>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <AiOutlineJavaScript className='text-white md:text-7xl text-5xl' />
+                                        <AiOutlineJavaScript className='text-white md:text-7xl text-5xl animate-bounce' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>javascript</h2>
                                     </div>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <RiTailwindCssFill className='text-white md:text-7xl text-5xl' />
+                                        <RiTailwindCssFill className='text-white md:text-7xl text-5xl animate-pulse' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>tailwind</h2>
                                     </div>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <FaBootstrap className='text-white md:text-7xl text-5xl' />
+                                        <FaBootstrap className='text-white md:text-7xl text-5xl animate-bounce' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>Bootstrap</h2>
                                     </div>
                                 </div>
                                 <div className='flex justify-between items-center md:mt-10 mt-3'>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <FaReact className='text-white md:text-8xl text-5xl' />
+                                        <FaReact className='text-white md:text-8xl text-5xl animate-spin' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>react</h2>
                                     </div>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <FaGithub className='text-white md:text-8xl text-5xl' />
+                                        <FaGithub className='text-white md:text-8xl text-5xl animate-bounce' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>Github</h2>
                                     </div>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <FaCss3 className='text-white md:text-8xl text-5xl' />
-                                        <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>css</h2>
+                                        <BiLogoFirebase className='text-white md:text-8xl text-5xl animate-pulse' />
+                                        <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>Firebase</h2>
                                     </div>
                                 </div>
                             </div>
