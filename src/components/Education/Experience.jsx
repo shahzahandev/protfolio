@@ -5,7 +5,7 @@ import { NavLink } from 'react-router'
 const Experience = () => {
     return (
         <div>
-            <div className='pt-[80px] pb-[48px] bg-gray-800 font-primary tracking-[2px]'>
+            <div className='md:pt-[80px] pt-[130px] pb-[48px] bg-gray-800 font-primary tracking-[2px]'>
                 <Container>
                     <div className='flex md:flex-row flex-col justify-between text-white md:mt-[50px]'>
                         <div className='text-white flex flex-col md:w-[30%] md:py-15 py-10 md:px-10 md:space-y-10 space-y-5 bg-transparent rounded-tl-2xl rounded-bl-2xl'>

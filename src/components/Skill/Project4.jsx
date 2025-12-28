@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 const Project4 = () => {
   return (
     <>
-     <div className='md:pt-[150px] pt-[100px] md:pb-[150px] pb-[120px] bg-gray-800 font-primary md:tracking-[1.5px] tracking-normal'>
+     <div className='md:pt-[200px] pt-[150px] md:pb-[150px] pb-[120px] bg-gray-800 font-primary md:tracking-[1.5px] tracking-normal'>
                 <Container>
                     <div className='flex md:justify-between md:flex-row flex-col items-center md:space-x-[50px] space-y-15'>
                         <div className='md:w-[50%] border-b-2 text-white/50 md:pb-10 pb-5 md:px-0'>

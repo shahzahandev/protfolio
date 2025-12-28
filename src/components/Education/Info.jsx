@@ -5,7 +5,7 @@ import Container from '../Container/Container'
 const Info = () => {
     return (
         <div>
-            <div className='pt-[80px] pb-[48px] bg-gray-800 font-primary tracking-[2px]'>
+            <div className='md:pt-[80px] pt-[130px] pb-[48px] bg-gray-800 font-primary tracking-[2px]'>
                 <Container>
                     <div className='flex md:flex-row flex-col justify-between text-white md:mt-[50px]'>
                         <div className='text-white flex flex-col md:w-[30%] md:py-15 py-10 md:px-10 md:space-y-10 space-y-5 bg-transparent rounded-tl-2xl rounded-bl-2xl'>
@@ -26,16 +26,16 @@ const Info = () => {
                             <div className='md:h-[450px] overflow-y-scroll md:px-5 py-2'>
                                 <div className='flex md:flex-row flex-col justify-between text-white md:space-x-[10px]'>
                                     <div className='flex flex-col md:space-y-10 space-y-5 tracking-[.75px] md:w-[50%] md:px-2 md:py-5'>
-                                        <h3 className='md:text-[20px] text-[18px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>name </span> shahzahan siraj</h3>
-                                        <h3 className='md:text-[20px] text-[18px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>Experience </span> 01 years</h3>
-                                        <h3 className='md:text-[20px] text-[18px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>Nationality </span> bangladeshi</h3>
-                                        <h3 className='md:text-[20px] text-[18px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>Freelance </span> Available</h3>
+                                        <h3 className='md:text-[20px] text-[16px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>name </span> shahzahan siraj</h3>
+                                        <h3 className='md:text-[20px] text-[16px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>Experience </span> 01 years</h3>
+                                        <h3 className='md:text-[20px] text-[16px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>Nationality </span> bangladeshi</h3>
+                                        <h3 className='md:text-[20px] text-[16px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>Freelance </span> Available</h3>
                                     </div>
                                     <div className='flex flex-col md:space-y-10 space-y-5 tracking-[.75px] md:w-[50%] md:px-2 md:py-5 md:mt-0 mt-3'>
-                                        <h3 className='md:text-[20px] text-[18px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>phone </span> 01785-405909</h3>
-                                        <h3 className='md:text-[20px] text-[18px] text-white font-semibold'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>github </span> github.com/shahzahandev</h3>
+                                        <h3 className='md:text-[20px] text-[16px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>phone </span> 01785-405909</h3>
+                                        <h3 className='md:text-[20px] text-[16px] text-white font-semibold'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>github </span> github.com/shahzahandev</h3>
                                         <h3 className='text-[18px] text-white font-semibold '><span className='text-[16px] text-[#c9c4c4] lowercase mr-4'>email </span> shahzahansiraj516@gmail.com</h3>
-                                        <h3 className='md:text-[20px] text-[18px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>languages </span> Bangla, Hindi, English</h3>
+                                        <h3 className='md:text-[20px] text-[16px] text-white font-semibold capitalize'><span className='md:text-[16px] text-[14px] text-[#c9c4c4] lowercase mr-5'>languages </span> Bangla, Hindi, English</h3>
                                     </div>
                                 </div>
                             </div>
