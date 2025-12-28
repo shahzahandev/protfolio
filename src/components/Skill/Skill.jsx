@@ -14,7 +14,6 @@ const Skill = () => {
                             <h2 className='md:text-4xl text-2xl text-[#0cf199] font-bold  mt-[20px] tracking-[3px]'>Frontend Project <span className='md:text-2xl text-[16px] md:ml-3 tracking-[1px] inline-block'>( Chating App )</span></h2>
                             <p className='md:mt-[20px] mt-[10px] md:text-[16px] text-[14px] font-medium text-[#c9c4c4] md:w-auto w-[320px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere animi voluptate harum iste id non et temporibusagni dignptates consequatur in quae officiis dolorem deleniti amet?</p>
                             <div className='mt-5 flex items-center space-x-10'>
-                                <h2 className='md:text-2xl text-[14px] font-bold text-[#0cf199] tracking-[2px]'>JavaScript</h2>
                                 <h2 className='md:text-2xl text-[14px] font-bold text-[#0cf199] tracking-[2px]'>Taiwind</h2>
                                 <h2 className='md:text-2xl text-[14px] font-bold text-[#0cf199] tracking-[2px]'>React</h2>
                                  <h2 className='md:text-2xl text-[14px] font-bold text-[#0cf199] tracking-[2px]'>Firebase</h2>
