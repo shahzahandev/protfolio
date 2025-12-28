@@ -27,9 +27,8 @@ const Navbar = () => {
                             <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
                                 <NavLink  className={(e) => {return e.isActive?"red": ""}} to="/skill" >Work</NavLink>
                             </li>
-                            <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] cursor-pointer">Contact</li>
                             <li >
-                                <NavLink to="/footer" className={(e) => {return e.isActive? "red" : ""}}>  <button className="font-semibold text-[16px] border-2 border-white py-[10px] px-[31px] bg-transparent rounded-[50px] cursor-pointer transition-all duration-300 ease-in hover:bg-transparent hover:text-[#0cf199] hover:border-[#0cf199]" >Hire me</button></NavLink>
+                                <NavLink to="/footer" className={(e) => {return e.isActive? "red" : ""}}>  <button className="font-semibold text-[16px] border-2 border-white py-[10px] px-[31px] text-black bg-[#0cf199] rounded-[50px] cursor-pointer transition-all duration-300 ease-in hover:bg-transparent hover:text-[#0cf199] hover:border-[#0cf199]" >Hire me</button></NavLink>
                               
                             </li>
                         </ul>
@@ -41,7 +40,7 @@ const Navbar = () => {
                 <div>
                     {
                         show ?
-                           <ul className="bg-gray-700 absolute top-0 right-0 flex  flex-col w-[160px] h-[500px] items-center space-y-10 text-white pt-[100px] pb-[27px] tracking-[2px] rounded-tl-[180px] rounded-bl-[10px]">
+                           <ul className="bg-gray-700 absolute top-0 right-0 flex flex-col w-[160px] h-[450px] items-center space-y-12 text-white pt-[100px] pb-[27px] tracking-[2px] rounded-tl-[180px] rounded-bl-[10px]">
                             <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
                                 <NavLink  className={(e) => {return e.isActive?"red": ""}} to="/" >Home</NavLink>
                             </li>
@@ -54,9 +53,8 @@ const Navbar = () => {
                             <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
                                 <NavLink  className={(e) => {return e.isActive?"red": ""}} to="/skill" >Work</NavLink>
                             </li>
-                            <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] cursor-pointer">Contact</li>
                             <li >
-                                <NavLink to="/footer" className={(e) => {return e.isActive? "red" : ""}}>  <button className="font-semibold text-[16px] border-2 border-white py-[10px] px-[31px] bg-transparent rounded-[50px] cursor-pointer transition-all duration-300 ease-in hover:bg-transparent hover:text-[#0cf199] hover:border-[#0cf199]" >Hire me</button></NavLink>
+                                <NavLink to="/footer" className={(e) => {return e.isActive? "red" : ""}}>  <button className="font-semibold text-[16px] border-2 border-white py-[10px] px-[31px] text-black bg-[#0cf199] rounded-[50px] cursor-pointer transition-all duration-300 ease-in hover:bg-transparent hover:text-[#0cf199] hover:border-[#0cf199]" >Hire me</button></NavLink>
                               
                             </li>
                         </ul>

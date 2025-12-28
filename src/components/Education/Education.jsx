@@ -26,7 +26,6 @@ const Education = () => {
                                   </div>
                                  <h1 className="md:tracking-[5px] md:text-6xl text-3xl font-semibold text-[#0cf199] mt-[15px] inline-block">Shahzahan Siraj</h1>
                             </div>
-                       
                         </div>
                     </div>
                     <div>

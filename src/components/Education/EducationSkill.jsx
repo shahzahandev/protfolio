@@ -40,31 +40,31 @@ const EducationSkill = () => {
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>figma</h2>
                                     </div>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <FaHtml5 className='text-white md:text-8xl text-5xl animate-bounce' />
+                                        <FaHtml5 className='text-white md:text-8xl text-5xl animate-bounce bg-[#ef5826] p-2' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>html</h2>
                                     </div>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <FaCss3 className='text-white md:text-8xl text-5xl animate-pulse' />
+                                        <FaCss3 className='text-white md:text-8xl text-5xl animate-pulse bg-[#3d82ea] p-2' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>css</h2>
                                     </div>
                                 </div>
                                 <div className='flex justify-between items-center md:mt-10 mt-3'>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <AiOutlineJavaScript className='text-white md:text-7xl text-5xl animate-bounce' />
+                                        <AiOutlineJavaScript className='text-black md:text-7xl text-5xl animate-bounce bg-[#eee609] p-2' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>javascript</h2>
                                     </div>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <RiTailwindCssFill className='text-white md:text-7xl text-5xl animate-pulse' />
+                                        <RiTailwindCssFill className='text-[#4da3ef] md:text-7xl text-5xl animate-pulse ' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>tailwind</h2>
                                     </div>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <FaBootstrap className='text-white md:text-7xl text-5xl animate-bounce' />
+                                        <FaBootstrap className='text-white md:text-7xl text-5xl animate-bounce bg-[#830cec] p-2' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>Bootstrap</h2>
                                     </div>
                                 </div>
                                 <div className='flex justify-between items-center md:mt-10 mt-3'>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <FaReact className='text-white md:text-8xl text-5xl animate-spin' />
+                                        <FaReact className='text-[#1ec4e1] md:text-8xl text-5xl animate-spin' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>react</h2>
                                     </div>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
@@ -72,7 +72,7 @@ const EducationSkill = () => {
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>Github</h2>
                                     </div>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
-                                        <BiLogoFirebase className='text-white md:text-8xl text-5xl animate-pulse' />
+                                        <BiLogoFirebase className='text-[#f1c606] md:text-8xl text-5xl animate-pulse' />
                                         <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>Firebase</h2>
                                     </div>
                                 </div>

@@ -4,7 +4,7 @@ import Container from '../Container/Container'
 const About = () => {
   return (
    <>
-    <div className='relative bg-gray-800 md:pt-[250px] pt-[120px] md:pb-[150px] pb-[100px] font-primary md:tracking-[1.5px] tracking-[1px]'>
+    <div className='relative bg-gray-800 md:pt-[250px] pt-[130px] md:pb-[150px] pb-[130px] font-primary md:tracking-[1.5px] tracking-[1px]'>
         <Container>
             <div className='md:flex md:flex-row flex-col md:justify-between items-center md:space-x-[150px]'>
                 <div className='md:w-[50%] border-b-2 text-white/50 md:pb-10 pb-5'>

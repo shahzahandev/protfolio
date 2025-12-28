@@ -17,6 +17,7 @@ const Skill = () => {
                                 <h2 className='md:text-2xl text-[14px] font-bold text-[#0cf199] tracking-[2px]'>JavaScript</h2>
                                 <h2 className='md:text-2xl text-[14px] font-bold text-[#0cf199] tracking-[2px]'>Taiwind</h2>
                                 <h2 className='md:text-2xl text-[14px] font-bold text-[#0cf199] tracking-[2px]'>React</h2>
+                                 <h2 className='md:text-2xl text-[14px] font-bold text-[#0cf199] tracking-[2px]'>Firebase</h2>
                             </div>
                             <div className='flex items-center space-x-5 md:mt-8 mt-5'>
                                 <FaLongArrowAltRight className="bg-gray-700 text-white md:w-[50px] w-[40px] md:h-[50px] h-[40px] rounded-[50%] hover:bg-[#0cf199] hover:text-black transition-all delay-100 rotate-320 hover:rotate-360 p-2" />
