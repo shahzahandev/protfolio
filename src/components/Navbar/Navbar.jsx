@@ -47,7 +47,7 @@ const Navbar = () => {
                 <div>
                     {
                         show ?
-                           <ul className="bg-gray-700/90 absolute top-0 right-0 flex flex-col w-[100px] h-[450px] items-center space-y-13 text-white pt-[100px] pb-[27px] tracking-[2px] rounded-tl-[10px] rounded-bl-[10px]">
+                           <ul className="bg-gray-700/90 absolute top-0 right-0 flex flex-col w-[100px] h-[470px] items-center space-y-13 text-white pt-[130px] pb-[27px] tracking-[2px] rounded-bl-[10px]">
                             <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
                                 <NavLink  className={(e) => {return e.isActive?"red": ""}} to="/" ><IoHome className='text-4xl'/></NavLink>
                             </li>
