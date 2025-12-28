@@ -7,14 +7,14 @@ import { BsDownload } from "react-icons/bs";
 import { useState } from "react";
 
 const Banner = () => {
-   const [show, setShow] = useState(false)
+  const [show, setShow] = useState(false)
 
   return (
     <>
-          <div className="bg-gray-800 font-primary md:pt-[200px] pt-[150px] md:pb-[60px] pb-[50px] overflow-y-hidden">
+      <div className="bg-gray-800 font-primary md:pt-[200px] pt-[150px] md:pb-[60px] pb-[50px] overflow-y-hidden">
         <Container>
-        <div className="md:flex md:justify-between items-center md:tracking-[1.5px] tracking-[1px] md:px-0 px-5 scroll- ">
-           <div className="flex items-center md:hidden md:w-[80%] relative drop-shadow-[0_5px_25px_rgb(12_241_153_/_.5)]">
+          <div className="md:flex md:justify-between items-center md:tracking-[1.5px] tracking-[1px] md:px-0 px-5 scroll- ">
+            <div className="flex items-center md:hidden md:w-[80%] relative drop-shadow-[0_5px_25px_rgb(12_241_153_/_.5)]">
               <img src={banner1} alt="" className="rounded-[50%]" />
               <div className="cricle absolute w-full h-full top-0 left-0 rounded-[50%] border-10 border-t-[rgb(12,241,153)] border-b-[#eeeeee] border-l-[#eeeeee] border-r-[#0cf199]"></div>
             </div>
@@ -43,26 +43,26 @@ const Banner = () => {
                 </ul>
               </div>
               <div className="font-main text-white flex md:flex-row flex-col items-center md:mt-15 mt-8  md:space-y-0 space-y-5">
-               <div className="flex md:flex-row space-x-10 items-center">
-                 <div className="flex items-center space-x-2">
-                  <h2 className="md:text-4xl text-3xl font-semibold">01</h2>
-                  <p className=" md:text-[12px] text-[10px] text-[#c9c4c4] md:w-[120px] w-[80px]">Years of experience</p>
+                <div className="flex md:flex-row space-x-10 items-center">
+                  <div className="flex items-center space-x-2">
+                    <h2 className="md:text-4xl text-3xl font-semibold">01</h2>
+                    <p className=" md:text-[12px] text-[10px] text-[#c9c4c4] md:w-[120px] w-[80px]">Years of experience</p>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <h2 className="md:text-4xl text-3xl font-semibold">12</h2>
+                    <p className=" md:text-[12px] text-[10px] text-3xl text-[#c9c4c4] md:w-[120px] w-[80px]">Projects Completes</p>
+                  </div>
                 </div>
-                <div className="flex items-center space-x-2">
-                  <h2 className="md:text-4xl text-3xl font-semibold">12</h2>
-                  <p className=" md:text-[12px] text-[10px] text-3xl text-[#c9c4c4] md:w-[120px] w-[80px]">Projects Completes</p>
+                <div className="flex md:flex-row space-x-10 items-center">
+                  <div className="flex items-center space-x-2">
+                    <h2 className="md:text-4xl text-3xl font-semibold">06</h2>
+                    <p className=" md:text-[12px] text-[10px] text-[#c9c4c4] md:w-[120px] w-[80px]">Technologies mastered </p>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <h2 className="md:text-4xl text-3xl font-semibold">120</h2>
+                    <p className=" md:text-[12px] text-[10px] text-[#c9c4c4] md:w-[100px] w-[80px]">Code commits</p>
+                  </div>
                 </div>
-               </div>
-               <div className="flex md:flex-row space-x-10 items-center">
-                 <div className="flex items-center space-x-2">
-                  <h2 className="md:text-4xl text-3xl font-semibold">06</h2>
-                  <p className=" md:text-[12px] text-[10px] text-[#c9c4c4] md:w-[120px] w-[80px]">Technologies mastered </p>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <h2 className="md:text-4xl text-3xl font-semibold">120</h2>
-                  <p className=" md:text-[12px] text-[10px] text-[#c9c4c4] md:w-[100px] w-[80px]">Code commits</p>
-                </div>
-               </div>
               </div>
             </div>
             <div className="md:block hidden w-[30%] relative drop-shadow-[0_5px_25px_rgb(12_241_153_/_.5)]">
