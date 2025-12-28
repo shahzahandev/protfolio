@@ -12,7 +12,7 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
     return (
         <>
-            <div className='bg-gray-900 md:pt-[130px] pt-[120px] md:pb-[30px] pb-[50px] md:tracking-[1.5px] tracking-[1px] font-primary'>
+            <div className='bg-gray-800 md:pt-[130px] pt-[120px] md:pb-[30px] pb-[50px] md:tracking-[1.5px] tracking-[1px] font-primary'>
                 <Container>
                     <div className='font-primary md:w-full flex md:flex-row flex-col rounded-2xl items-center bg-transparent'>
                         <div className='md:w-[40%] md:px-10 py-10 rounded-tl-2xl rounded-bl-2xl'>

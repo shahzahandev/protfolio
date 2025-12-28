@@ -1,17 +1,19 @@
 import banner1 from "../../assets/bannerChat.png"
 import Container from '../Container/Container'
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaTwitter} from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { BsDownload } from "react-icons/bs";
-import { useState } from "react";
+import About from '../About/About'
+import Footer from "../Footer/Footer";
+import Work from "../Skill/Work";
+import Education from "../Education/Education";
 
 const Banner = () => {
-  const [show, setShow] = useState(false)
 
   return (
     <>
-      <div className="bg-gray-800 font-primary md:pt-[200px] pt-[150px] md:pb-[60px] pb-[50px] overflow-y-hidden">
+      <div className="bg-gray-800 font-primary md:pt-[200px] pt-[150px] md:pb-[60px] pb-[50px] overflow-y-scroll">
         <Container>
           <div className="md:flex md:justify-between items-center md:tracking-[1.5px] tracking-[1px] md:px-0 px-5 scroll- ">
             <div className="flex items-center md:hidden md:w-[80%] relative drop-shadow-[0_5px_25px_rgb(12_241_153_/_.5)]">
@@ -45,7 +47,7 @@ const Banner = () => {
               <div className="font-main text-white flex md:flex-row flex-col items-center md:mt-15 mt-8  md:space-y-0 space-y-5">
                 <div className="flex md:flex-row space-x-10 items-center">
                   <div className="flex items-center space-x-2">
-                    <h2 className="md:text-4xl text-3xl font-semibold">01</h2>
+                    <h2 className="md:text-4xl text-3xl font-semibold" >01</h2>
                     <p className=" md:text-[12px] text-[10px] text-[#c9c4c4] md:w-[120px] w-[80px]">Years of experience</p>
                   </div>
                   <div className="flex items-center space-x-2">
@@ -72,6 +74,13 @@ const Banner = () => {
           </div>
         </Container>
       </div>
+     <About/>
+    <Education>
+         <Work></Work>
+     <Footer></Footer>
+    </Education>
+     <Work></Work>
+     <Footer></Footer>
     </>
   )
 }
