@@ -11,9 +11,9 @@ const Banner = () => {
 
   return (
     <>
-          <div className="bg-gray-800 font-primary md:pt-[200px] pt-[150px] md:pb-[60px] pb-[50px]">
+          <div className="bg-gray-800 font-primary md:pt-[200px] pt-[150px] md:pb-[60px] pb-[50px] overflow-y-hidden">
         <Container>
-        <div className="md:flex md:justify-between items-center md:tracking-[1.5px] tracking-[1px] md:px-0 px-5">
+        <div className="md:flex md:justify-between items-center md:tracking-[1.5px] tracking-[1px] md:px-0 px-5 scroll- ">
            <div className="flex items-center md:hidden md:w-[80%] relative drop-shadow-[0_5px_25px_rgb(12_241_153_/_.5)]">
               <img src={banner1} alt="" className="rounded-[50%]" />
               <div className="cricle absolute w-full h-full top-0 left-0 rounded-[50%] border-10 border-t-[rgb(12,241,153)] border-b-[#eeeeee] border-l-[#eeeeee] border-r-[#0cf199]"></div>
