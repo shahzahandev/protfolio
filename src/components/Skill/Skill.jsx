@@ -1,5 +1,5 @@
 import Container from '../Container/Container'
-import { FaLongArrowAltRight } from "react-icons/fa";
+import { FiActivity  } from "react-icons/fi";
 import project1 from "../../assets/postman.png"
 import { FaGithub } from "react-icons/fa";
 
@@ -19,14 +19,15 @@ const Skill = () => {
                                  <h2 className='md:text-2xl text-[14px] font-bold text-[#0cf199] tracking-[2px]'>Firebase</h2>
                             </div>
                             <div className='flex items-center space-x-5 md:mt-8 mt-5'>
-                                <FaLongArrowAltRight className="bg-gray-700 text-white md:w-[50px] w-[40px] md:h-[50px] h-[40px] rounded-[50%] hover:bg-[#0cf199] hover:text-black transition-all delay-100 rotate-320 hover:rotate-360 p-2" />
+                                <a href="https://postman516-by-shahzahan.vercel.app">
+                                <FiActivity  className="bg-gray-700 text-white md:w-[50px] w-[40px] md:h-[50px] h-[40px] rounded-[50%] hover:bg-[#0cf199] hover:text-black transition-all delay-100 p-2" /></a>
                                 <div className="flex justify-center items-center md:w-[50px] w-[40px] md:h-[50px] h-[40px] rounded-[50%] p-2 text-[24px] bg-gray-700 transition-all duration-200 ease-in hover:bg-[#0cf199]">
-                                    <a href="https://postman516-by-shahzahan.vercel.app"><FaGithub className='text-3xl text-white hover:text-black' /></a>
+                                    <a  href="https://github.com/shahzahandev"><FaGithub className='text-3xl text-white hover:text-black' /></a>
                                 </div>
                             </div>
                         </div>
                         <div className='md:w-[50%]'>
-                            <img src={project1} alt="" className='md:h-[500px] h-[350px]' />
+                            <img src={project1} alt="" className='md:h-[500px] h-[350px] border-15 border-white/90' />
                         </div>
                     </div>
                 </Container>

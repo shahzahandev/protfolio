@@ -21,7 +21,7 @@ const EducationSkill = () => {
                         <div className='text-white flex flex-col md:w-[30%] md:py-15 py-10 md:px-10 md:space-y-10 space-y-5 bg-transparent rounded-tl-2xl rounded-bl-2xl'>
                             <div>
                                 <h2 className="md:tracking-[5px] tracking-[3px] md:text-4xl text-3xl font-semibold text-[#0cf199] md:mb-5 mb-2">Why hire me?</h2>
-                                <p className="md:text-[14px] text-[13px] text-[#c9c4c4] md:w-[300px] w-[350px] md:mt-[20px] mt-[10px] tracking-[2px] md:leading-7 leading-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ius ibero magnam iste dignissimos.</p>
+                                <p className="md:text-[14px] text-[13px] text-[#c9c4c4] md:w-[300px] w-auto] md:mt-[20px] mt-[10px] tracking-[1px] md:leading-7 leading-6">I builds fast, responsive, and modern websites using React and modern tools, delivering clean code, great UI, and reliable results clients can trust.</p>
                             </div>
                             <button className="px-[20px] py-[10px] border-2 border-[#0cf199] rounded-[15px] md:text-[24px] font-semibold text-[#0cf199] bg-transparent transition-all duration-300 ease-in hover:border-white hover:text-white"><NavLink className={(e) => { return e.isActive ? "white" : "" }} to="/educationInfo">Education</NavLink></button>
                             <button className="px-[20px] py-[10px] border-2 border-[#0cf199] rounded-[15px] bg-[#0cf199] md:text-[24px] font-semibold text-[#0cf199] transition-all duration-300 ease-in hover:border-white hover:text-white"><NavLink className={(e) => { return e.isActive ? "white" : "" }} to="/educationSkill">Skill</NavLink> </button>
@@ -31,7 +31,7 @@ const EducationSkill = () => {
                         <div className='md:w-[70%] bg-transparent md:px-10 rounded-tr-2xl rounded-br-2xl md:py-15'>
                              <div className='md:px-5 md:py-2'>
                             <h2 className="md:tracking-[4px] tracking-[3px] md:text-3xl text-2xl font-semibold text-[#0cf199] md:mb-5">My Skill</h2>
-                            <p className="md:text-[14px] text-[13px] text-[#c9c4c4] md:mt-[20px] mt-[10px] tracking-[2px] md:leading-7 leading-6 mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p className="md:text-[14px] text-[13px] text-[#c9c4c4] md:mt-[20px] mt-[10px] tracking-[1px] md:leading-7 leading-6 mb-5">Modern web technologies, building responsive, user-friendly, and high-performance web applications.</p>
                         </div>
                             <div className='h-[450px] overflow-y-scroll md:px-5 py-2 tracking-[2px]'>
                                 <div className='flex justify-between items-center'>
@@ -51,7 +51,7 @@ const EducationSkill = () => {
                                 <div className='flex justify-between items-center md:mt-10 mt-3'>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
                                         <AiOutlineJavaScript className='text-black md:text-7xl text-5xl animate-bounce bg-[#eee609] p-2' />
-                                        <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>javascript</h2>
+                                        <h2 className='md:text-2xl font-bold capitalize text-[#0cf199] text-center mt-2'>javaScript</h2>
                                     </div>
                                     <div className='flex flex-col items-center  md:w-[200px] w-[110px]  bg-gray-200/10 md:py-10 py-5 md:px-15 px-5 rounded-[15px] cursor-pointer hover:scale-105 transition-all duration-300'>
                                         <RiTailwindCssFill className='text-[#4da3ef] md:text-7xl text-5xl animate-pulse ' />
