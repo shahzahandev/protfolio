@@ -38,8 +38,8 @@ const Footer = () => {
                                             <FaLocationDot className="text-[36px] text-[#0cf199]" />
                                         </div>
                                         <div>
-                                            <h4 className='md:text-[16px] text-[14px] text-white font-medium'>Address</h4>
-                                            <h4 className='md:text-[14px] text-[12px] text-white/50 font-medium'>TB gate, Mohakhali, Dhaka-1213, Bangladesh</h4>
+                                            <h4 className='md:text-[16px] text-[14px] text-white font-medium'>Location</h4>
+                                            <h4 className='md:text-[14px] text-[12px] text-white/50 font-medium'>Mohakhali, Dhaka, Bangladesh</h4>
                                         </div>
                                     </div>
                                 </div>
