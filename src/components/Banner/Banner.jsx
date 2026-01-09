@@ -16,7 +16,7 @@ const Banner = () => {
 
   return (
     <>
-      <div className="bg-gray-800 font-primary md:pt-[200px] pt-[150px] md:pb-[50px] pb-[50px] overflow-y-hidden tracking-[1px] ">
+      <div className="bg-gray-800 font-primary md:pt-[200px] pt-[100px] md:pb-[50px] pb-[50px] overflow-y-hidden tracking-[1px] ">
         <Container>
           <div className="md:flex md:justify-between items-center md:px-0 px-5">
             <div className="flex items-center md:hidden md:w-[80%] relative drop-shadow-[0_0px_15px_rgb(12_241_153_/_.5)] mb-5">

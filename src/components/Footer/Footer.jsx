@@ -7,12 +7,12 @@ import { FaLocationDot } from "react-icons/fa6";
 const Footer = () => {
     return (
         <>
-            <div className='bg-gray-800 md:pt-[120px] pt-[120px] md:pb-[30px] pb-[50px] md:tracking-[1px] tracking-[1px] font-primary'>
+            <div className='bg-gray-800 md:pt-[120px] pt-[50px] md:pb-[30px] pb-[10px] tracking-[1px] font-primary'>
                 <Container>
                     <div className='font-primary md:w-full flex md:flex-row flex-col rounded-2xl items-center bg-transparent'>
                         <div className='md:w-[40%] md:px-10 py-10 rounded-tl-2xl rounded-bl-2xl'>
                             <div className='md:space-y-2'>
-                                <h3 className='md:text-2xl text-[20px] font-bold text-[#0cf199] mb-5 tracking-[1px]'>For private</h3>
+                                <h3 className='md:text-2xl text-[20px] font-bold text-[#0cf199] mb-5'>For private</h3>
                                 <div className='flex flex-col md:space-y-10 space-y-5 md:mt-8 mt-5'>
                                     <div className='flex items-center space-x-5'>
                                         <div className='p-2 bg-[#0cf199]/10 rounded-[5px]'>
