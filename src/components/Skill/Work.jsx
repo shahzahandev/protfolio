@@ -1,12 +1,11 @@
-import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import Skill from './Skill'
 import Project2 from './Project2'
 import Project3 from './Project3'
 import Project4 from './Project4'
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-
+import Project5 from './Project5'
+import Project6 from './Project6'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -20,7 +19,7 @@ const Work = () => {
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
-      autoplay={{ delay: 4000 }}
+      autoplay={{ delay: 3000 }}
       loop={true}
     >
     <SwiperSlide>
@@ -37,6 +36,12 @@ const Work = () => {
 
         <SwiperSlide>
            <Project4></Project4>
+      </SwiperSlide>
+           <SwiperSlide>
+           <Project5></Project5>
+      </SwiperSlide>
+       <SwiperSlide>
+          <Project6></Project6>
       </SwiperSlide>
     </Swiper>
     

@@ -7,7 +7,7 @@ import { FaLocationDot } from "react-icons/fa6";
 const Footer = () => {
     return (
         <>
-            <div className='bg-gray-800 md:pt-[120px] pt-[50px] md:pb-[30px] pb-[10px] tracking-[1px] font-primary'>
+            <div className='bg-gray-800 md:pt-[120px] pt-[50px] md:pb-[10px] pb-[10px] tracking-[1px] font-primary'>
                 <Container>
                     <div className='font-primary md:w-full flex md:flex-row flex-col rounded-2xl items-center bg-transparent'>
                         <div className='md:w-[40%] md:px-10 py-10 rounded-tl-2xl rounded-bl-2xl'>
@@ -51,27 +51,14 @@ const Footer = () => {
                                 <h2 className='md:text-2xl text-[20px] font-bold text-[#0cf199] md:mb-5 mb-3 '>Let's work together</h2>
                                 <p className="md:text-[16px] text-[12px] text-[#c9c4c4] md:leading-7 leading-6 mb-5 md:w-auto w-[300px]">Whether you have a specific project in mind or just want to chat about the latest tech, I'm always open to new conversations.</p>
                                 <div className='flex flex-col space-y-3'>
-                                    <input type="text" placeholder='Give your full name here' className='text-white border border-gray-300 rounded-[15px] px-5 py-4  cursor-pointer md:text-[18px] text-[12px] outline-none  focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/40' />
-                                    <input type="text" placeholder='Give your email name ' className='text-white border border-gray-300 rounded-[15px] px-5 py-4  cursor-pointer md:text-[18px] text-[12px] outline-none focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/40 ' />
-                                    <div class="">
-                                        <label class="font-medium text-white md:text-[16px] text-[14px]">
-                                            Select Category
-                                        </label>
-
-                                        <select
-                                            class="w-full text-[#8ca1a1] border border-gray-300 rounded-[15px] px-5 py-4  cursor-pointer md:text-[18px] text-[12px] outline-none  focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/40 mt-2 bg-transparent"
-                                        >
-                                            {/* <option value="" >Choose an option</option> */}
-                                            <option value="webDev">Web Development</option>
-                                            <option value="webDis">Web Design</option>
-                                        </select>
-                                    </div>
+                                    <input type="text" placeholder='Full name' className='text-white border border-gray-300 rounded-[15px] px-5 py-4  cursor-pointer md:text-[18px] text-[12px] outline-none  focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/40' />
+                                    <input type="text" placeholder='Email address ' className='text-white border border-gray-300 rounded-[15px] px-5 py-4  cursor-pointer md:text-[18px] text-[12px] outline-none focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/40 ' />
                                     <div>
                                         <label className="font-medium text-white md:text-[16px] text-[14px]">
                                             Add a comment
                                         </label>
                                         <textarea
-                                            rows="6"
+                                            rows="4"
                                             placeholder="Write your comment..."
                                             className="mt-2 w-full resize-none rounded-[15px] text-white border border-gray-300 p-3 md:text-[18px] text-[12px]
                                     focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/20 
@@ -80,7 +67,7 @@ const Footer = () => {
                                     </div>
                                     <div className='flex justify-center text-center w-full'>
                                         <button className="text-black py-[13px] border-2 w-full border-[#0cf199] rounded-[50px] md:text-[18px]
-                                        text-[14px] font-extrabold bg-[#0cf199] transition-all duration-300 ease-in hover:border-white hover:text-black hover:bg-[#0cf199]/70 text-center cursor-pointer">Send a Message</button>
+                                        text-[14px] font-extrabold bg-[#0cf199] transition-all duration-300 ease-in hover:text-white hover:bg-transparent text-center cursor-pointer hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">Send a Message</button>
                                     </div>
                                 </div>
                             </div>
