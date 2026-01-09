@@ -1,6 +1,6 @@
 import Container from '../Container/Container'
 import { FaGithub } from "react-icons/fa";
-import project5 from "../../assets/Project5.png"
+import project5 from "../../assets/project5.png"
 
 const Project5 = () => {
   return (
