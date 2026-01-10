@@ -4,7 +4,7 @@ import project6 from "../../assets/project6.png"
 
 const Project5 = () => {
   return (
-    <div> <div className='md:pt-[200px] pt-[50px] md:pb-[150px] pb-[50px] bg-gray-800 font-primary tracking-[1px] '>
+    <div> <div className='md:pt-[200px] pt-[80px] md:pb-[150px] pb-[80px] bg-gray-800 font-primary tracking-[1px] '>
                 <Container>
                     <div className='flex md:justify-between md:flex-row flex-col items-center md:space-x-[50px] space-y-15'>
                         <div className='md:w-[50%] border-b-2 text-white/50 md:pb-10 pb-5 md:px-0'>

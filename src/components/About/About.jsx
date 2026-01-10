@@ -5,7 +5,7 @@ import { NavLink } from "react-router";
 const About = () => {
   return (
    <>
-    <div className='relative bg-gray-800 md:pt-[260px] pt-[50px] md:pb-[180px] pb-[50px] font-primary tracking-[1px] '>
+    <div className='relative bg-gray-800 md:pt-[260px] pt-[100px] md:pb-[180px] pb-[80px] font-primary tracking-[1px] '>
         <Container>
             <div className='md:flex md:flex-row flex-col md:justify-between items-center md:space-x-[150px] '>
                 <div className='md:w-[50%] border-b-2 text-white/50 md:pb-10 pb-5'>

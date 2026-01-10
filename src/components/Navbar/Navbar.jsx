@@ -42,21 +42,21 @@ const Navbar = () => {
                     <div>
                         {
                             show ?
-                                <ul className="bg-gray-700/90 absolute top-0 right-0 flex flex-col w-[120px] h-[570px] items-center space-y-13 text-white pt-[130px] pb-[27px] tracking-[2px] rounded-bl-[10px]">
+                                <ul className="bg-gray-700/90 absolute top-0 right-0 flex flex-col w-full h-[420px] items-center space-y-10 text-white pt-[80px] pb-[27px] tracking-[2px] rounded-bl-[10px]">
                                     <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
-                                        <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/" ><IoHome className='text-4xl' /></NavLink>
+                                        <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/" >Home</NavLink>
                                     </li>
                                     <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
-                                        <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/about" ><AiFillCustomerService className='text-4xl' /></NavLink>
+                                        <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/about" >Services</NavLink>
                                     </li>
                                     <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199]  " >
-                                        <NavLink to="/education" className={(e) => { return e.isActive ? "red" : "" }}><FaFile className='text-4xl' /></NavLink>
+                                        <NavLink to="/education" className={(e) => { return e.isActive ? "red" : "" }}>Resume</NavLink>
                                     </li>
                                     <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
-                                        <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/skill" ><AiOutlineFundProjectionScreen className='text-4xl' /></NavLink>
+                                        <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/skill" >Work</NavLink>
                                     </li>
                                     <li >
-                                        <NavLink to="/footer" className={(e) => { return e.isActive ? "red" : "" }}>  <button className="font-semibold text-[16px] border-2 border-white py-[8px] px-[10px] text-black bg-[#0cf199]/80 rounded-[50px] cursor-pointer transition-all duration-300 ease-in hover:bg-transparent hover:text-[#0cf199] hover:border-[#0cf199]" >Hire me</button></NavLink>
+                                        <NavLink to="/footer" className={(e) => { return e.isActive ? "red" : "" }}>  <button className="font-semibold text-[16px] border-2 border-[#0cf199] py-[8px] px-[25px] text-white hover:bg-[#0cf199] rounded-[50px] cursor-pointer transition-all duration-300 ease-in  hover:text-black border-[#0cf199]" >Hire me</button></NavLink>
 
                                     </li>
                                 </ul>
@@ -67,7 +67,7 @@ const Navbar = () => {
                         }
                         <div>
                             {show ? (
-                                <ImCross onClick={() => setShow(!show)} className="text-red-500 text-2xl animate-pulse" />
+                                <ImCross onClick={() => setShow(!show)} className="text-red-600 text-2xl animate-pulse" />
                             ) :
                                 (
                                     <FaBarsProgress onClick={() => setShow(!show)} className="text-white text-2xl" />
