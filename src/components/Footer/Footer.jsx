@@ -3,7 +3,10 @@ import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { LuPhoneCall } from "react-icons/lu";
 import FooterLast from '../FooterLast/FooterLast';
 import { FaLocationDot } from "react-icons/fa6";
-
+import { FaFacebookF} from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
 const Footer = () => {
     return (
         <>
@@ -48,8 +51,10 @@ const Footer = () => {
                         </div>
                         <div className='md:w-[60%] w-[100%] md:px-5'>
                             <div className='md:py-10 py-5 md:px-5 px-0'>
-                                <h2 className='md:text-2xl text-[20px] font-bold text-[#0cf199] md:mb-5 mb-3 '>Let's work together</h2>
-                                <p className="md:text-[16px] text-[12px] text-[#c9c4c4] md:leading-7 leading-6 mb-5 md:w-auto w-[300px]">Whether you have a specific project in mind or just want to chat about the latest tech, I'm always open to new conversations.</p>
+                                <div className='flex flex-col md:items-start items-center'>
+                                       <h2 className='md:text-2xl text-[20px] font-bold text-[#0cf199] md:mb-5 mb-3 '>Let's work together</h2>
+                                <p className="md:text-[16px] text-[12px] text-[#c9c4c4] md:leading-7 leading-6 mb-5 md:w-auto w-[350px] mx-auto md:text-start text-center">Whether you have a specific project in mind or just want to chat about the latest tech, I'm always open to new conversations.</p>
+                                </div>
                                 <div className='flex flex-col space-y-3'>
                                     <input type="text" placeholder='Full name' className='text-white border border-gray-300 rounded-[15px] px-5 py-4  cursor-pointer md:text-[18px] text-[12px] outline-none  focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/40' />
                                     <input type="text" placeholder='Email address ' className='text-white border border-gray-300 rounded-[15px] px-5 py-4  cursor-pointer md:text-[18px] text-[12px] outline-none focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/40 ' />
@@ -66,10 +71,27 @@ const Footer = () => {
                                         ></textarea>
                                     </div>
                                     <div className='flex justify-center text-center w-full'>
-                                        <button className="text-black py-[13px] border-2 w-full border-[#0cf199] rounded-[50px] md:text-[18px]
+                                        <button className="text-black py-[13px] border-2 w-full border-[#0cf199] rounded-[10px] md:text-[18px]
                                         text-[14px] font-extrabold bg-[#0cf199] transition-all duration-300 ease-in hover:text-white hover:bg-transparent text-center cursor-pointer hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">Send a Message</button>
                                     </div>
                                 </div>
+                                   <div className="font-main text-white md:mt-10 mt-6 md:hidden block">
+                                                  <ul className="flex justify-center md:space-x-[110px] space-x-12 text-[#0cf199]">
+                                                    <li className="border-2 rounded-[50%] p-2 text-[24px] transition-all duration-100 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">
+                                                    <a href="https://www.linkedin.com/in/shahzahan-siraj-7b5ba7304/"><FaLinkedinIn className='' /></a>
+                                                  </li>
+                                                  <li className="border-2 rounded-[50%] p-2 text-[24px] transition-all duration-100 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">
+                                                    <a href="https://www.facebook.com/shahzahan.siraj.92"><FaFacebookF className='text-[24px]' /></a>
+                                                  </li>
+                                                  <li className="relative border-2 rounded-[50%] p-2 text-[24px] transition-all duration-100 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">
+                                                    <a href="https://github.com/shahzahandev"><FaGithub className='' /></a>
+                                                  </li>
+                                                    <li className="relative border-2 rounded-[50%] p-2 text-[24px] transition-all duration-100 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">
+                                                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl"><BiLogoGmail  className='' /></a>
+                                                  </li>
+                                                </ul>
+                                                     
+                                              </div>
                             </div>
                         </div>
                     </div>
