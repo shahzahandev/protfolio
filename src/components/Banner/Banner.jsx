@@ -8,7 +8,7 @@ import About from '../About/About'
 import Footer from "../Footer/Footer";
 import Work from "../Skill/Work";
 import Education from "../Education/Education";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRightLong } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
 import { NavLink } from "react-router"
 
@@ -33,7 +33,7 @@ const Banner = () => {
                 </button>
                 <NavLink to="/skill">
                     <button className="flex items-center md:px-[32px] px-[100px] md:py-[13px] py-[10px] border-2 border-[#0cf199] rounded-[50px] bg-transparent text-[14px] font-semibold text-[rgb(12,241,153)]  transition-all duration-300 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)] md:w-auto w-[370px] cursor-pointer">View project
-                  <FaArrowRight  className="md:ml-2 ml-5 font-bold text-[18px]" />
+                  <FaArrowRightLong   className="md:ml-2 ml-5 font-bold text-[18px] group" />
                 </button>
                 </NavLink>
               </div>
@@ -69,7 +69,7 @@ const Banner = () => {
               </div>
             </div>
             <div className="md:block hidden w-[30%] relative ">
-              <img src={banner1} alt="" className="rounded-[50%] border-5 border-[#0cf199]" />
+              <img src={banner1} alt="" className="rounded-[50%] border-2 border-[#0cf199]" />
             </div>
           </div>
         </Container>

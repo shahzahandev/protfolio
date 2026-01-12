@@ -1,12 +1,8 @@
-import { useState } from 'react'
 import Container from '../Container/Container'
 import { NavLink } from "react-router"
 import { FaBarsProgress } from "react-icons/fa6";
-import { IoHome } from "react-icons/io5";
-import { AiFillCustomerService } from "react-icons/ai";
-import { FaFile } from "react-icons/fa6";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
+import { useState } from 'react';
 
 const Navbar = () => {
     const [show, setShow] = useState(false)
@@ -56,7 +52,7 @@ const Navbar = () => {
                                         <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/skill" >Work</NavLink>
                                     </li>
                                     <li >
-                                        <NavLink to="/footer" className={(e) => { return e.isActive ? "red" : "" }}>  <button className="font-semibold text-[16px] border-2 border-[#0cf199] py-[8px] px-[25px] text-white hover:bg-[#0cf199] rounded-[50px] cursor-pointer transition-all duration-300 ease-in  hover:text-black border-[#0cf199]" >Hire me</button></NavLink>
+                                        <NavLink to="/footer" className={(e) => { return e.isActive ? "red" : "" }}>  <button className="font-semibold text-[16px] border-2 border-[#0cf199] py-[8px] px-[50px] text-white hover:bg-[#0cf199] rounded-[50px] cursor-pointer transition-all duration-300 ease-in  hover:text-black border-[#0cf199]" >Hire me</button></NavLink>
 
                                     </li>
                                 </ul>
