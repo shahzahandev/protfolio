@@ -52,7 +52,7 @@ const EducationInfo = () => {
                                         <FcGraduationCap className='md:text-8xl text-5xl' />
                                     </div>
                                     <div className='w-[80%]'>
-                                        <h3 className='md:text-[28px] text-[18px] text-[#0cf199] font-semibold w-[100%] leading-6'>Higher Secondary Certificate(H.S.C)</h3>
+                                        <h3 className='md:text-[28px] text-[18px] text-[#0cf199] font-semibold w-[100%] leading-7'>Higher Secondary Certificate(H.S.C)</h3>
                                         <h2 className='md:text-[16px] text-[10px] text-white/80 capitalize font-medium md:w-[350px] w-[220px]'>Samir Uddin Smrity College, Thakurgaon, Dhaka, Bangladesh.</h2>
                                         <h2 className='md:text-[16px] text-[10px] text-[#c9c4c4]/80 capitalize font-medium'><i>2017-18</i></h2>
                                         <h2 className='md:text-[14px] text-[8px] text-[#c9c4c4] capitalize font-medium md:w-[350px] w-[220px]

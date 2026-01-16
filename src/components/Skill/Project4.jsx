@@ -21,7 +21,7 @@ const Project4 = () => {
                             </div>
                             <div className='flex items-center space-x-10 md:mt-8 mt-2'>
                                     <div className="flex justify-center items-center p-2 rounded-[50%]  text-[24px]  transition-all duration-200 ease-in border-2 border-[#0cf199] hover:shadow-[0px_0px_10px_rgba(12,241,153,.5)]">
-                                    <a  href="https://github.com/shahzahandev"><FaGithub className='text-2xl text-[#0cf199]' /></a>
+                                    <a  href="https://github.com/shahzahandev/second-react-project"><FaGithub className='text-2xl text-[#0cf199]' /></a>
                                 </div>
                                  <a href="https://petroil516.vercel.app">
                                 <div className='flex justify-center items-center'>

@@ -32,26 +32,6 @@ const router = createBrowserRouter([
       { path: "/Info", Component: Info}
     ]
   }
-    //   {
-  //   path: "/banner",
-  //   element: <Banner></Banner>,
-  // },
-  //  {
-  //   path: "/about",
-  //   element: <About></About>,
-  // },
-  //   {
-  //   path: "/education",
-  //   element: <Education></Education>,
-  // },
-  //   {
-  //   path: "/skill",
-  //   element: <Skill></Skill>,
-  // },
-  //    {
-  //   path: "/footer",
-  //   element: <Footer></Footer>,
-  // },
 ]);
 
 createRoot(document.getElementById('root')).render(

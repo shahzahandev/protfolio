@@ -17,3 +17,7 @@
   border-radius: 50% 10% 10% 5% / 50% 10% 50% 60%;
 }
 
+  @theme {
+  --color-main: #FCF8F8;
+}
+

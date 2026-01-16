@@ -12,8 +12,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
 import { NavLink } from "react-router"
 
-const Banner = () => {
-
+const Banner = () => { 
   return (
     <>
       <div className="bg-gray-800 font-primary md:pt-[100px] pt-[100px] md:pb-[50px] pb-[50px] overflow-y-hidden tracking-[1px] ">
