@@ -1,5 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import Skill from './Skill'
 import Project2 from './Project2'
 import Nexcent from './Nexcent'
@@ -7,9 +10,8 @@ import Project3 from './Project3'
 import Project4 from './Project4'
 import Project5 from './Project5'
 import Project6 from './Project6'
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import Quriarbox from './Quriarbox';
+import Finsweet from './Finsweet';
 
 
 const Work = () => {
@@ -44,13 +46,22 @@ const Work = () => {
            <SwiperSlide>
            <Project5></Project5>
       </SwiperSlide>
+         {/* project -------------------------06*/}
        <SwiperSlide>
-             {/* project -------------------------06*/}
-          <Project6></Project6>
+        <Finsweet></Finsweet>
+
       </SwiperSlide>
            {/* project -------------------------07*/}
         <SwiperSlide>
           <Project3></Project3>
+      </SwiperSlide>
+              {/* project -------------------------08*/}
+        <SwiperSlide>
+         <Quriarbox/>
+      </SwiperSlide>
+           {/* project -------------------------09*/}
+        <SwiperSlide>
+          <Project6></Project6>
       </SwiperSlide>
     </Swiper>
     
