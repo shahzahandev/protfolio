@@ -33,7 +33,7 @@ const Footer = () => {
                                         </div>
                                         <div>
                                             <h4 className='md:text-[16px] text-[14px] text-white font-medium'>Phone</h4>
-                                            <h4 className='md:text-[14px] text-[12px] text-white/50 font-medium'>+8801785-405909 ( <i>for call</i> )</h4>
+                                            <h4 className='md:text-[14px] text-[12px] text-white/50 font-medium'>+8801785-405909 (<i>for call</i>)</h4>
                                         </div>
                                     </div>
                                     <div className='flex items-center space-x-5'>

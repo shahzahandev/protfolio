@@ -25,7 +25,7 @@ const Experience = () => {
                         </div>
                             <div className='h-[450px] overflow-hidden md:px-5 py-2'>
                                 <div className='flex justify-between text-white md:space-x-[20px] space-x-[10px]'>
-                                    <div className='tracking-[2px] w-[50%] bg-gray-200/10 px-5 py-8 rounded-2xl cursor-pointer transition-all duration-100 hover:shadow-[0px_0px_10px_rgba(12,241,153,.5)]'>
+                                    <div className='w-[50%] bg-gray-200/10 px-5 py-8 rounded-2xl cursor-pointer transition-all duration-100 hover:shadow-[0px_0px_10px_rgba(12,241,153,.5)]'>
                                         <h3 className='md:text-[28px] text-[18px] text-[#0cf199] font-semibold'>2025-26</h3>
                                         <h2 className='md:text-2xl text-white font-bold mt-2'>Student</h2>
                                         <div className='flex items-center space-x-2 mt-2'>
@@ -44,7 +44,7 @@ const Experience = () => {
                                 </div>
                                 <div className='flex justify-between text-white md:space-x-[20px] space-x-[10px] mt-6'>
                                     <div className='w-[50%] bg-gray-200/10 px-5 py-8 rounded-2xl cursor-pointer transition-all duration-100 hover:shadow-[0px_0px_10px_rgba(12,241,153,.5)]'>
-                                        <h3 className='md:text-[28px] text-[18px] text-[#0cf199] font-semibold'>223</h3>
+                                        <h3 className='md:text-[28px] text-[18px] text-[#0cf199] font-semibold'>100+</h3>
                                         <h2 className='md:text-2xl text-white font-bold mt-2'>Git Commit</h2>
                                         <div className='flex items-center space-x-2 mt-2'>
                                             <div className='md:w-3 w-2 md:h-3 h-2 bg-[#0cf199] rounded-[50%]'></div>

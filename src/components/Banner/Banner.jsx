@@ -4,6 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { BsDownload } from "react-icons/bs";
+import { FaTwitter } from "react-icons/fa";
 import About from '../About/About'
 import Footer from "../Footer/Footer";
 import Work from "../Skill/Work";
@@ -39,9 +40,9 @@ const Banner = () => {
                 </div>
               </div>
             </div>
-            <div className="md:block hidden w-full relative py-15 bg-gray-700 mt-25 px-4 rounded-tl-2xl rounded-tr-2xl">
+            <div className="md:block hidden w-full relative py-15 bg-gray-700 mt-25 px-4 rounded-tl-2xl rounded-tr-2xl shadow-[0px_0px_10px_rgba(12,241,153,.25)] ">
               <div className="absolute bottom-5 left-120">
-              <img src={banner1} alt="" className="rounded-[50%] border-20 border-[#1F2937]  w-[35%]" /> 
+              <img src={banner1} alt="" className="rounded-[50%] border-20 border-[#1F2937] w-[35%] " /> 
               </div>
               <div className="flex items-center gap-70 w-[50%]">
                <div className="flex gap-10">
@@ -70,7 +71,7 @@ const Banner = () => {
                     <a href="https://github.com/shahzahandev"><FaGithub className='' /></a>
                   </li>
                   <li className="relative border-2 rounded-[50%] p-2 text-[24px] transition-all duration-100 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">
-                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl"><BiLogoGmail className='' /></a>
+                    <a href=""><FaTwitter  className='' /></a>
                   </li>
                 </ul>
               </div>
