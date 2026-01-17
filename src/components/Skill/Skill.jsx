@@ -1,7 +1,6 @@
 import Container from '../Container/Container'
-import { FiActivity  } from "react-icons/fi";
 import project1 from "../../assets/postman.png"
-import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Skill = () => {
     return (
@@ -13,18 +12,19 @@ const Skill = () => {
                             <h3 className='md:text-8xl text-4xl text-white uppercase font-bold'>01</h3>
                             <h2 className='md:text-4xl text-2xl text-[#0cf199] font-bold md:mt-[20px] mt-2'>Chating Application</h2>
                             <p className='md:mt-[20px] mt-[10px] md:text-[16px] text-[12px] font-medium text-[#c9c4c4] md:w-auto w-[350px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere animi voluptate harum iste id non et temporibusagni dignptates consequatur in quae officiis dolorem deleniti?</p>
-                            <div className='md:mt-5 mt-2 flex items-center space-x-10'>
-                                <h2 className='md:text-[18px] text-[12px] font-bold text-[#0cf199] tracking-[2px]'>Taiwind</h2>
-                                <h2 className='md:text-[18px] text-[12px] font-bold text-[#0cf199] tracking-[2px]'>React</h2>
-                                 <h2 className='md:text-[18px] text-[12px] font-bold text-[#0cf199] tracking-[2px]'>Firebase</h2>
+                            <div className='md:mt-5 mt-2 flex items-center space-x-10 text-[#c9c4c4]/50'>
+                                <h2 className='md:text-[18px] text-[12px] font-semibold'>Taiwind</h2>
+                                <h2 className='md:text-[18px] text-[12px] font-semibold'>React</h2>
+                                 <h2 className='md:text-[18px] text-[12px] font-semibold'>Firebase</h2>
                             </div>
                             <div className='flex items-center space-x-10 md:mt-8 mt-2'>
-                                <div className="flex justify-center items-center p-2 rounded-[50%]  text-[24px]  transition-all duration-200 ease-in border-2 border-[#0cf199] hover:shadow-[0px_0px_10px_rgba(12,241,153,.5)]">
-                                    <a  href="https://github.com/shahzahandev/postman516"><FaGithub className='text-2xl text-[#0cf199]' /></a>
+                                <div className="flex justify-center items-center gap-x-2 md:text-[14px] font-semibold text-[10px] text-[#0cf199] transition-all duration-200 ease-in ">
+                                    <a  href="https://github.com/shahzahandev/postman516"><FaExternalLinkAlt className='md:text-2xl text-[16px]  text-[#0cf199]' /></a>
+                                    <a  href="https://github.com/shahzahandev/postman516"><h6>Git Code</h6></a>
                                 </div>
                                  <a href="https://postman516-by-shahzahan.vercel.app">
                                 <div className='flex justify-center items-center'>
-                                   <div  className="text-center font-semibold text-[14px] bg-gray-700 rounded-[10px] text-[#0cf199] hover:shadow-[0px_0px_10px_rgba(12,241,153,.5)] hover:bg-transparent transition-all delay-100 p-2">Live </div>
+                                   <div  className="text-center font-semibold md:text-[14px] text-[10px]  rounded-[10px] text-[#0cf199] transition-all delay-100 p-2">Live project  </div>
                                 </div>
                                 </a>
                             </div>

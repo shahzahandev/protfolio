@@ -12,6 +12,7 @@ import Project5 from './Project5'
 import Project6 from './Project6'
 import Quriarbox from './Quriarbox';
 import Finsweet from './Finsweet';
+import CssProject from './CssProject';
 
 
 const Work = () => {
@@ -23,7 +24,7 @@ const Work = () => {
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
-      autoplay={{ delay: 4000 }}
+      autoplay={{ delay: 94000 }}
       loop={true}
     >
     <SwiperSlide>
@@ -62,6 +63,10 @@ const Work = () => {
            {/* project -------------------------09*/}
         <SwiperSlide>
           <Project6></Project6>
+      </SwiperSlide>
+           {/* project -------------------------10*/}
+        <SwiperSlide>
+          <CssProject></CssProject>
       </SwiperSlide>
     </Swiper>
     
