@@ -13,6 +13,7 @@ import Project6 from './Project6'
 import Quriarbox from './Quriarbox';
 import Finsweet from './Finsweet';
 import CssProject from './CssProject';
+import Mah from './Mah';
 
 
 const Work = () => {
@@ -43,7 +44,7 @@ const Work = () => {
         <SwiperSlide>
            <Project4></Project4>
       </SwiperSlide>
-           {/* project -------------------------05*/}
+      {/* project -------------------------05*/}
            <SwiperSlide>
            <Project5></Project5>
       </SwiperSlide>
@@ -67,6 +68,10 @@ const Work = () => {
            {/* project -------------------------10*/}
         <SwiperSlide>
           <CssProject></CssProject>
+      </SwiperSlide>
+          {/* project -------------------------11*/}
+        <SwiperSlide>
+        <Mah></Mah>
       </SwiperSlide>
     </Swiper>
     
