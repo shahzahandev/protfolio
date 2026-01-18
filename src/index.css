@@ -21,3 +21,56 @@
   --color-main: #FCF8F8;
 }
 
+.heading,
+.caption,
+.para,
+.button,
+.banner-footer{
+    transform: translateX(530px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent .5s .6s ease-in-out 1 forwards;
+}
+@keyframes showContent{
+    to{
+        transform: translateY(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+.heading{
+  animation-delay: .3s;
+}
+.para{
+  animation-delay: .9s;
+}
+.button{
+  animation-delay: 1.1s;
+}
+.banner-footer{
+  animation-delay: 1.2s;
+}
+
+/* about part */
+.heading2,
+.caption2,
+.para2{
+    transform: translateX(-530px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent2 .5s .6s ease-in-out 1 forwards;
+}
+@keyframes showContent2{
+    to{
+        transform: translateY(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+.heading2{
+  animation-delay: .3s;
+}
+.para2{
+  animation-delay: .9s;
+}
+

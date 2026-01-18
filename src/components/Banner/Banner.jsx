@@ -10,10 +10,9 @@ import Footer from "../Footer/Footer";
 import Work from "../Skill/Work";
 import Education from "../Education/Education";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { BiLogoGmail } from "react-icons/bi";
 import { NavLink } from "react-router"
 
-const Banner = () => { 
+const Banner = () => {
   return (
     <>
       <div className="bg-gray-800 font-primary md:pt-[100px] pt-[100px] md:pb-[50px] pb-[50px] overflow-y-hidden tracking-[1px] ">
@@ -23,10 +22,10 @@ const Banner = () => {
               <img src={banner1} alt="" className="rounded-[25px]" />
             </div>
             <div className="md:w-[100%] md:text-center text-center md:mt-0 mt-8">
-              <h1 className="md:text-8xl text-[34px] md:w-auto w-[300px] mx-auto font-semibold text-[#0cf199] md:mt-[0px] tracking-tight">Shahzahan Siraj</h1>
-              <h3 className="md:text-5xl text-[#c9c4c4] md:mt-2 md:w-auto w-[330px] mx-auto">I'm a <span className="md:text-6xl text-[22px] text-[#eafaf8] md:font-semibold">Frontend Developer</span></h3>
-              <p className="md:text-[16px] text-[14px] text-[#c9c4c4] md:w-[780px] mx-auto md:mt-[20px] mt-2 leading-7">I specialize in creating pixel-perfect, high-performance Website & web applications using modern technologies like HTML, CSS, Bootstrap, Tailwind, Javascript, Firebase, Redux, Router, Hooks & React.</p>
-              <div className="flex justify-center md:flex-row flex-col md:gap-x-10 gap-x-5 md:mt-5 mt-6  md:gap-y-0 gap-y-5 mb-10">
+              <h1 className="heading md:text-8xl text-[34px] md:w-auto w-[300px] mx-auto font-semibold text-[#0cf199] md:mt-[0px] tracking-tight">Shahzahan Siraj</h1>
+              <h3 className="caption md:text-5xl text-[#c9c4c4] md:mt-2 md:w-auto w-[330px] mx-auto">I'm a <span className="md:text-6xl text-[22px] text-[#eafaf8] md:font-semibold">Frontend Developer</span></h3>
+              <p className="md:text-[16px] text-[14px] text-[#c9c4c4] md:w-[780px] mx-auto md:mt-[20px] mt-2 leading-7 para">I specialize in creating pixel-perfect, high-performance Website & web applications using modern technologies like HTML, CSS, Bootstrap, Tailwind, Javascript, Firebase, Redux, Router, Hooks & React.</p>
+              <div className="button flex justify-center md:flex-row flex-col md:gap-x-10 gap-x-5 md:mt-5 mt-6  md:gap-y-0 gap-y-5 mb-10">
                 <button className="flex items-center  md:px-[32px] px-[80px] md:py-[13px] py-[10px] border-2 border-[#0cf199] rounded-[50px] bg-transparent md:text-[14px] text-[12px] font-semibold text-[rgb(12,241,153)]  transition-all duration-300 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)] cursor-pointer">
                   <span>DOWNLOAD CV</span>
                   <span><BsDownload className="font-bold text-[18px] animate-bounce md:ml-4 ml-3" /></span>
@@ -40,7 +39,7 @@ const Banner = () => {
                 </div>
               </div>
             </div>
-            <div className="md:block hidden w-full relative py-15 bg-gray-700 mt-25 px-4 rounded-tl-2xl rounded-tr-2xl shadow-[0px_0px_10px_rgba(12,241,153,.25)] ">
+            <div className="banner-footer md:block hidden w-full relative py-15 bg-gray-700 mt-25 px-4 rounded-tl-2xl rounded-tr-2xl shadow-[0px_0px_10px_rgba(12,241,153,.25)] ">
               <div className="absolute bottom-5 left-120">
               <img src={banner1} alt="" className="rounded-[50%] border-20 border-[#1F2937] w-[35%] " /> 
               </div>
