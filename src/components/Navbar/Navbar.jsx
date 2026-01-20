@@ -33,7 +33,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className='flex justify-between items-center md:hidden md:px-0 px-5 py-5 '>
+                <div className='flex justify-between items-center md:hidden md:px-0 px-5 py-3 '>
                     <div className='text-white capitalize md:text-4xl text-3xl font-bold tracking-[2px]'>siraj<span className='text-[#0cf199] font-bold ml-1'>.</span></div>
                     <div>
                         {

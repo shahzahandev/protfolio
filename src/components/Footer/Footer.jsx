@@ -14,7 +14,7 @@ const Footer = () => {
             <div className='bg-gray-800 md:pt-[120px] pt-[50px] md:pb-[10px] pb-[10px] tracking-[1px] font-primary'>
                 <Container>
                     <div className='font-primary md:w-full flex md:flex-row flex-col rounded-2xl items-center bg-transparent'>
-                        <div className='md:w-[40%] md:px-10 py-10 rounded-tl-2xl rounded-bl-2xl'>
+                        <div className='heading md:w-[40%] md:px-10 py-10 rounded-tl-2xl rounded-bl-2xl'>
                             <div className='md:space-y-2'>
                                 <h3 className='md:text-2xl text-[20px] font-bold text-[#0cf199] mb-5'>For private</h3>
                                 <div className='flex flex-col md:space-y-10 space-y-5 md:mt-8 mt-5'>
@@ -48,7 +48,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='md:w-[60%] w-[100%] md:px-5'>
+                        <div className='caption md:w-[60%] w-[100%] md:px-5'>
                             <div className='md:py-10 py-5 md:px-5 px-0'>
                                 <div className='flex flex-col md:items-start items-center'>
                                     <h2 className='md:text-2xl text-[20px] font-bold text-[#0cf199] md:mb-5 mb-3 '>Let's work together</h2>
