@@ -65,7 +65,7 @@ const Banner = () => {
               <h3 className="caption md:text-5xl text-[#c9c4c4] md:mt-2 mt-[-5px] md:w-auto w-[330px] mx-auto">I'm a <span className="md:text-6xl text-[22px] text-[#eafaf8] md:font-semibold">Frontend Developer</span></h3>
               <p className="md:text-[16px] text-[14px] text-[#c9c4c4] md:w-[780px] mx-auto md:mt-[20px] mt-1 md:leading-7 leading-5.5 para">I specialize in creating pixel-perfect, high-performance Website & web applications using modern technologies like HTML, CSS, Bootstrap, Tailwind, Javascript, Firebase, Redux, Router, Hooks & React.</p>
               <div className="button flex justify-center md:flex-row flex-col md:gap-x-10 gap-x-5 md:mt-5 mt-2  md:gap-y-0 gap-y-5 md:mb-10">
-                <button className="flex items-center md:px-[32px] px-[85px] md:py-[13px] py-[10px] border-2 border-[#0cf199] rounded-[50px] bg-transparent md:text-[14px] text-[12px] font-semibold text-[rgb(12,241,153)]  transition-all duration-300 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)] cursor-pointer">DOWNLOAD CV
+                <button className="flex items-center md:px-[32px] px-[90px] md:py-[13px] py-[10px] border-2 border-[#0cf199] rounded-[50px] bg-transparent md:text-[14px] text-[12px] font-semibold text-[rgb(12,241,153)]  transition-all duration-300 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)] cursor-pointer"> DOWNLOAD CV
                     <BsDownload className="font-bold text-[18px] animate-bounce md:ml-4 ml-3" />
                 </button>
                 <div>
@@ -86,9 +86,9 @@ const Banner = () => {
                     <h2 className="text-[22px] text-white font-bold w-[30px]">{count}</h2>
                     <p className="text-[10px] text-[#c9c4c4] w-[80px]">Projects Completes</p>
                   </div>
-                  <div className="flex items-center gap-x-4">
+                  <div className="flex items-center gap-x-6">
                     <h2 className="text-[22px] text-white font-bold  w-[30px]">{count2}+</h2>
-                    <p className="text-[10px] text-[#c9c4c4] w-[80px]md: w-[80px]">Code commits</p>
+                    <p className="text-[10px] text-[#c9c4c4] w-[80px]md: w-[75px]">Code commits</p>
                   </div>
                     </div>
                 </div>         
