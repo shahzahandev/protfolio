@@ -11,8 +11,47 @@ import Work from "../Skill/Work";
 import Education from "../Education/Education";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { NavLink } from "react-router"
+import { useEffect, useState } from "react";
 
 const Banner = () => {
+
+  let [count1, setCount1] = useState(0)
+  let [count, setCount] = useState(0)
+  let [count2, setCount2] = useState(0)
+
+  useEffect(() => {
+    if (count2 >= 100) {
+      return
+    }
+    let stop2 = setInterval(() => {
+      count2++
+      setCount2(count2)
+    },3)
+    return () => clearInterval(stop2)
+  })
+
+  useEffect(() => {
+    if (count1 >= 1) {
+      return
+    }
+    let stop1 = setInterval(() => {
+      count1++
+      setCount1(count1)
+    }, 150)
+    return () => clearInterval(stop1)
+  })
+
+  useEffect(() => {
+    if (count >= 25) {
+      return
+    }
+    let stop = setInterval(() => {
+      count++
+      setCount(count)
+    }, 25)
+    return () => clearInterval(stop)
+  })
+
   return (
     <>
       <div className="bg-gray-800 font-primary md:pt-[100px] pt-[100px] md:pb-[50px] pb-[50px] overflow-y-hidden tracking-[1px] ">
@@ -41,39 +80,39 @@ const Banner = () => {
             </div>
             <div className="banner-footer md:block hidden w-full relative py-15 bg-gray-700 mt-25 px-4 rounded-tl-2xl rounded-tr-2xl shadow-[0px_0px_10px_rgba(12,241,153,.25)] ">
               <div className="absolute bottom-5 left-120">
-              <img src={banner1} alt="" className="rounded-[50%] border-20 border-[#1F2937] w-[35%] " /> 
+                <img src={banner1} alt="" className="rounded-[50%] border-20 border-[#1F2937] w-[35%] " />
               </div>
               <div className="flex items-center gap-70 w-[50%]">
-               <div className="flex gap-10">
-                <div className="flex items-center space-x-2">
-                  <h2 className="text-3xl text-white font-bold" >01</h2>
-                  <p className="text-[10px] text-[#c9c4c4] w-[80px]">Years of experience</p>
+                <div className="flex gap-10">
+                  <div className="flex items-center gap-x-.5">
+                    <h2 className="text-3xl text-white font-bold w-[55px]" >0{count1}</h2>
+                    <p className="text-[10px] text-[#c9c4c4] w-[80px]">Years of experience</p>
+                  </div>
+                  <div className="flex items-center gap-x-.5">
+                    <h2 className="text-3xl text-white font-bold w-[55px]">{count}</h2>
+                    <p className="text-[10px] text-[#c9c4c4] w-[80px]">Projects Completes</p>
+                  </div>
+                  <div className="flex items-center gap-x-.5">
+                    <h2 className="text-3xl text-white font-bold w-[55px]">{count2}</h2>
+                    <p className="text-[10px] text-[#c9c4c4] md:w-[80px] w-[80px]">Code commits</p>
+                  </div>
                 </div>
-                <div className="flex items-center space-x-2">
-                  <h2 className="text-3xl text-white font-bold">24</h2>
-                  <p className="text-[10px] text-[#c9c4c4] w-[80px]">Projects Completes</p>
+                <div className="font-main text-white md:block hidden w-[50%]">
+                  <ul className="flex text-[#0cf199] gap-19">
+                    <li className="relative border-2 rounded-[50%] p-2 text-[24px] transition-all duration-100 ease-in  hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">
+                      <a href="https://www.linkedin.com/in/shahzahan-siraj-7b5ba7304/"><FaLinkedinIn className='' /></a>
+                    </li>
+                    <li className="relative border-2 rounded-[50%] p-2 text-[24px] transition-all duration-100 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">
+                      <a href="https://www.facebook.com/shahzahan.siraj.92"><FaFacebookF className='text-[24px]' /></a>
+                    </li>
+                    <li className="relative border-2 rounded-[50%] p-2 text-[24px] transition-all duration-100 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">
+                      <a href="https://github.com/shahzahandev"><FaGithub className='' /></a>
+                    </li>
+                    <li className="relative border-2 rounded-[50%] p-2 text-[24px] transition-all duration-100 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">
+                      <a href=""><FaTwitter className='' /></a>
+                    </li>
+                  </ul>
                 </div>
-                <div className="flex items-center space-x-2">
-                  <h2 className="text-3xl text-white font-bold">100+</h2>
-                  <p className="text-[10px] text-[#c9c4c4] md:w-[80px] w-[80px]">Code commits</p>
-                </div>
-              </div>
-              <div className="font-main text-white md:block hidden w-[50%]">
-                <ul className="flex text-[#0cf199] gap-19">
-                  <li className="relative border-2 rounded-[50%] p-2 text-[24px] transition-all duration-100 ease-in  hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">
-                    <a href="https://www.linkedin.com/in/shahzahan-siraj-7b5ba7304/"><FaLinkedinIn className='' /></a>
-                  </li>
-                  <li className="relative border-2 rounded-[50%] p-2 text-[24px] transition-all duration-100 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">
-                    <a href="https://www.facebook.com/shahzahan.siraj.92"><FaFacebookF className='text-[24px]' /></a>
-                  </li>
-                  <li className="relative border-2 rounded-[50%] p-2 text-[24px] transition-all duration-100 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">
-                    <a href="https://github.com/shahzahandev"><FaGithub className='' /></a>
-                  </li>
-                  <li className="relative border-2 rounded-[50%] p-2 text-[24px] transition-all duration-100 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">
-                    <a href=""><FaTwitter  className='' /></a>
-                  </li>
-                </ul>
-              </div>
               </div>
             </div>
           </div>
