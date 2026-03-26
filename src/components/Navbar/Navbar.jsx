@@ -38,21 +38,21 @@ const Navbar = () => {
                     <div>
                         {
                             show ?
-                                <ul className="bg-gray-700/90 absolute top-0 right-0 flex flex-col w-full h-[420px] items-center space-y-10 text-white pt-[80px] pb-[27px] tracking-[2px] rounded-bl-[10px]">
-                                    <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
+                                <ul className="bg-gray-800/95 absolute top-0 right-0 flex flex-col w-full h-[750px] items-center gap-y-25 text-white pt-[80px] pb-[27px] tracking-[2px] rounded-bl-[10px]">
+                                    <li className="font-semibold text-[24px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
                                         <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/" >Home</NavLink>
                                     </li>
-                                    <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
+                                    <li className="font-semibold text-[24px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
                                         <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/about" >Services</NavLink>
                                     </li>
-                                    <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199]  " >
+                                    <li className="font-semibold text-[24px] transition-all duration-300 ease-in hover:text-[#0cf199]  " >
                                         <NavLink to="/education" className={(e) => { return e.isActive ? "red" : "" }}>Resume</NavLink>
                                     </li>
-                                    <li className="font-semibold text-[16px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
+                                    <li className="font-semibold text-[24px] transition-all duration-300 ease-in hover:text-[#0cf199] ">
                                         <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/skill" >Work</NavLink>
                                     </li>
                                     <li >
-                                        <NavLink to="/footer" className={(e) => { return e.isActive ? "red" : "" }}>  <button className="font-semibold text-[16px] border-2 border-[#0cf199] py-[8px] px-[50px] text-white hover:bg-[#0cf199] rounded-[50px] cursor-pointer transition-all duration-300 ease-in  hover:text-black border-[#0cf199]" >Hire me</button></NavLink>
+                                        <NavLink to="/footer" className={(e) => { return e.isActive ? "red" : "" }}>  <button className="font-semibold text-[24px] border-2 border-[#0cf199] py-[8px] px-[50px] text-white hover:bg-[#0cf199] rounded-[50px] cursor-pointer transition-all duration-300 ease-in  hover:text-black border-[#0cf199]" >Hire me</button></NavLink>
 
                                     </li>
                                 </ul>
