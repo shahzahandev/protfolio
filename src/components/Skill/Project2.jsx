@@ -5,7 +5,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 const Project2 = () => {
     return (
         <>
-            <div className='md:pt-[200px] pt-[80px] md:pb-[150px] pb-[80px] bg-gray-800 font-primary tracking-[1px]'>
+            <div className='md:pt-[200px] pt-[80px] md:pb-[150px] pb-[80px] bg-primary font-primary tracking-[1px]'>
                 <Container>
                     <div className='flex md:justify-between md:flex-row flex-col items-center md:space-x-[50px] space-y-0'>
                         <div className='md:w-[50%] md:border-b-2 text-white/50 md:pb-10 pb-5 md:px-0'>

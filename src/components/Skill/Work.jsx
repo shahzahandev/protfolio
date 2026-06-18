@@ -45,34 +45,14 @@ const Work = () => {
            <Project4></Project4>
       </SwiperSlide>
       {/* project -------------------------05*/}
-           <SwiperSlide>
-           <Project5></Project5>
-      </SwiperSlide>
-         {/* project -------------------------06*/}
        <SwiperSlide>
         <Finsweet></Finsweet>
-
       </SwiperSlide>
-           {/* project -------------------------07*/}
+      {/* project -------------------------06*/}
         <SwiperSlide>
           <Project3></Project3>
       </SwiperSlide>
-              {/* project -------------------------08*/}
-        <SwiperSlide>
-         <Quriarbox/>
-      </SwiperSlide>
-           {/* project -------------------------09*/}
-        <SwiperSlide>
-          <Project6></Project6>
-      </SwiperSlide>
-           {/* project -------------------------10*/}
-        <SwiperSlide>
-          <CssProject></CssProject>
-      </SwiperSlide>
-          {/* project -------------------------11*/}
-        <SwiperSlide>
-        <Mah></Mah>
-      </SwiperSlide>
+          
     </Swiper>
     
     </div>

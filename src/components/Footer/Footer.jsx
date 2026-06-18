@@ -11,7 +11,7 @@ import { BiLogoGmail } from "react-icons/bi";
 const Footer = () => {
     return (
         <>
-            <div className='bg-gray-800 md:pt-[120px] pt-[50px] md:pb-[10px] pb-[10px] tracking-[1px] font-primary'>
+            <div className='bg-primary md:pt-[120px] pt-[50px] md:pb-[10px] pb-[10px] tracking-[1px] font-primary'>
                 <Container>
                     <div className='font-primary md:w-full flex md:flex-row flex-col rounded-2xl items-center bg-transparent'>
                         <div className='heading md:w-[40%] md:px-10 py-10 rounded-tl-2xl rounded-bl-2xl'>
