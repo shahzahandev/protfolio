@@ -10,10 +10,6 @@ import Banner from './components/Banner/Banner.jsx';
 import Education from './components/Education/Education.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import MainRoot from './components/MainRoot/MainRoot.jsx';
-import EducationInfo from './components/Education/EducationInfo.jsx';
-import EducationSkill from './components/Education/EducationSkill.jsx';
-import Experience from './components/Education/Experience.jsx';
-import Info from './components/Education/Info.jsx';
 import Work from './components/Skill/Work.jsx';
 
 const router = createBrowserRouter([
@@ -26,10 +22,6 @@ const router = createBrowserRouter([
       { path: "/education", Component: Education },
       { path: "skill", Component: Work },
       { path: "/footer", Component: Footer },
-      { path: "educationInfo", Component:EducationInfo},
-      { path: "educationSkill", Component: EducationSkill},
-      { path:"/Experience", Component: Experience},
-      { path: "/Info", Component: Info}
     ]
   }
 ]);

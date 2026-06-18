@@ -8,13 +8,7 @@ import Project2 from './Project2'
 import Nexcent from './Nexcent'
 import Project3 from './Project3'
 import Project4 from './Project4'
-import Project5 from './Project5'
-import Project6 from './Project6'
-import Quriarbox from './Quriarbox';
 import Finsweet from './Finsweet';
-import CssProject from './CssProject';
-import Mah from './Mah';
-
 
 const Work = () => {
   return (
