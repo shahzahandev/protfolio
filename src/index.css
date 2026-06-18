@@ -7,7 +7,7 @@
 }
 
 .red{
-  color: #0cf199;
+  color: #10B981;
 }
 .white{
   color: black;
@@ -17,8 +17,11 @@
   border-radius: 50% 10% 10% 5% / 50% 10% 50% 60%;
 }
 
-  @theme {
-  --color-main: #FCF8F8;
+@theme {
+  --color-primary: #0F172A;
+  --color-heading: #10B981;
+  --color-text: #F8FAFC;
+  --color-secondary: #94A3B8
 }
 
 .heading,

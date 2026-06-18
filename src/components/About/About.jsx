@@ -1,33 +1,69 @@
-import { FaLongArrowAltRight } from "react-icons/fa";
+import React from 'react'
 import Container from '../Container/Container'
-import { NavLink } from "react-router";
+import { NavLink } from 'react-router'
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaReact } from "react-icons/fa";
+import { FaCss3 } from "react-icons/fa";
+import { AiOutlineJavaScript } from "react-icons/ai";
+import { FaBootstrap } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { IoLogoFigma } from "react-icons/io5";
+import { FaHtml5 } from "react-icons/fa";
+import { BiLogoFirebase } from "react-icons/bi";
+import { FaNodeJs } from "react-icons/fa6";
+import { SiExpress } from "react-icons/si";
+import { DiMongodb } from "react-icons/di";
 
 const About = () => {
+    const skills = [
+        { name: "NodeJs", icon: <FaNodeJs className='text-[#178803]' /> },
+        { name: "Express", icon: <SiExpress className='text-white' /> },
+        { name: "MongoDB", icon: <DiMongodb className='text-[#17f10b]' /> },
+        { name: "React", icon: <FaReact className='text-[#1ec4e1]' /> },
+        { name: "Figma", icon: <IoLogoFigma className='text-[#c83eaf]' /> },
+        { name: "Github", icon: <FaGithub className='text-white' /> },
+        { name: "Firebase", icon: <BiLogoFirebase className='text-[#db4307]' /> },
+        { name: "JavaScript", icon: <AiOutlineJavaScript className='text-[#eee609]' /> },
+        { name: "Tailwind", icon: <RiTailwindCssFill className='text-[#4da3ef]' /> },
+        { name: "Bootstrap", icon: <FaBootstrap className='text-[#830cec]' /> },
+        { name: "HTML", icon: <FaHtml5 className='text-[#ef5826]' /> },
+        { name: "CSS", icon: <FaCss3 className='text-[#3d82ea]' /> },
+    ];
+
     return (
         <>
-            <div className='relative bg-gray-800 md:pt-[260px] pt-[140px] md:pb-[180px] pb-[140px] font-primary tracking-[1px] '>
+            <div className=' bg-primary md:py-25 py-15'>
+
                 <Container>
-                    <div className='md:flex md:flex-row flex-col md:justify-between items-center md:space-x-[150px] '>
-                        <div className='md:w-[50%] border-b-2 text-white/50 md:pb-10 pb-5'>
-                            <div className="heading2 flex items-center justify-between">
-                                <h3 className='md:text-8xl text-5xl text-white uppercase font-bold'>01</h3>
-                                <NavLink to="/footer">
-                                    <FaLongArrowAltRight className="bg-white text-[#3b3434] md:w-[60px] w-[50px] md:h-[60px] h-[50px] rounded-[50%] hover:bg-white/80 transition-all delay-100 text-[200px] rotate-40 hover:rotate-0" />
-                                </NavLink>
+                    <div className='text-center'>
+                        <h2 className="md:text-2xl text-2xl font-semibold text-[#0cf199] md:mb-2">My Skill</h2>
+                    </div>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 md:py-10 py-20">
+                        {skills.map((skill, index) => (
+                            <div
+                                key={index}
+                                className="
+      flex flex-col items-center
+      bg-white/5 backdrop-blur-sm
+      border border-white/10
+      rounded-2xl
+      py-4 md:py-6
+      px-3
+      transition-all duration-300
+      hover:border-[#0cf199]
+      hover:-translate-y-2
+      hover:shadow-[0px_0px_20px_rgba(12,241,153,.25)]
+      "
+                            >
+                                <div className="text-5xl md:text-7xl">
+                                    {skill.icon}
+                                </div>
+
+                                <h3 className="mt-3 text-sm md:text-xl font-semibold text-heading text-center">
+                                    {skill.name}
+                                </h3>
                             </div>
-                            <h2 className='caption2 md:text-4xl text-3xl text-[#0cf199] font-bold mt-[20px]'>Web Design</h2>
-                            <p className='md:mt-[20px] mt-[10px] md:text-[16px] text-[14px] font-medium text-[#c9c4c4] para2'>I provide modern, responsive web design tailored to your business goals. My designs focus on clean layouts, user-friendly interfaces, and performance to help you attract and convert visitors effectively.</p>
-                        </div>
-                        <div className='md:w-[50%] border-b-2 text-white/50 md:pb-10 pb-5 md:mt-0 mt-15'>
-                            <div className="heading flex items-center justify-between">
-                                <h3 className='md:text-8xl text-5xl text-white uppercase font-bold'>02</h3>
-                                <NavLink to="/footer">
-                                    <FaLongArrowAltRight className="bg-white text-[#3b3434] md:w-[60px] w-[50px] md:h-[60px] h-[50px] rounded-[50%] hover:bg-white/80 transition-all delay-100 text-[200px] rotate-40 hover:rotate-0" />
-                                </NavLink>
-                            </div>
-                            <h2 className='caption md:text-4xl text-3xl text-[#0cf199] font-bold  mt-[20px]'>Web Development</h2>
-                            <p className='md:mt-[20px] mt-[10px] md:text-[16px] text-[14px] font-medium text-[#c9c4c4] para'>I turn designs into high-quality, dynamic websites with clean code and optimized performance. Each project is built to support growth and deliver real results.</p>
-                        </div>
+                        ))}
                     </div>
                 </Container>
             </div>
