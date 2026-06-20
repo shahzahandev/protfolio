@@ -34,12 +34,12 @@ const About = () => {
 
     return (
         <>
-            <div className=' bg-primary md:py-25 py-15'>
+            <div className=' bg-primary md:py-25 py-15 font-primary'>
 
                 <Container>
                     <div className='text-center'>
-                        <h2 className="md:text-3xl text-2xl font-semibold text-[#0cf199]">My Skill</h2>
-                        <p className="md:text-[14px] text-[13px] text-[#c9c4c4] md:mt-[20px] mt-[10px] tracking-[1px] md:leading-7 leading-6 mb-5">Modern web technologies, building responsive, user-friendly, and high-performance web applications.</p>
+                        <h2 className="md:text-3xl text-2xl font-semibold text-heading">My Skill</h2>
+                        <p className="text-sm sm:text-base md:text-lg text-text md:mt-[20px] mt-[10px] tracking-[1px] md:leading-7 leading-6 mb-5">MERN Stack Developer with strong expertise in HTML, CSS, Tailwind CSS, Bootstrap, JavaScript, React.js, Node.js, Express.js, Firebase, and MongoDB. Skilled in building responsive, user-friendly, and scalable web applications. Proficient in Git and GitHub for version control and collaborative development, with a passion for creating efficient and modern full-stack solutions.</p>
                     </div>
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 md:py-5 py-5">
                         {skills.map((skill, index) => (
@@ -53,8 +53,8 @@ const About = () => {
       py-4 md:py-6
       px-3
       transition-all duration-300
-      hover:border-[#0cf199]
-      hover:-translate-y-2
+      hover:border-heading
+      hover:-translate-y-1
       hover:shadow-[0px_0px_20px_rgba(12,241,153,.25)]
       "
                             >
@@ -71,20 +71,20 @@ const About = () => {
 
                     <div className='md:w-[100%] bg-transparent md:px-10 rounded-tr-2xl rounded-br-2xl md:py-15'>
                         <div className='md:px-5 md:py-2 text-center'>
-                            <h2 className="md:text-3xl text-2xl font-semibold text-[#0cf199] md:mb-5">My Education</h2>
-                            <p className="md:text-[14px] text-[13px] text-[#c9c4c4] md:mt-[20px] mt-[10px] md:leading-7 leading-6 mb-5">I have completed my Bachelor’s and Master’s degrees, gaining strong academic knowledge, critical thinking skills, and a solid professional foundation.</p>
+                            <h2 className="md:text-3xl text-2xl font-semibold text-heading md:mb-5">My Education</h2>
+                            <p className="text-sm sm:text-base md:text-lg text-text md:mt-[20px] mt-[10px] md:leading-7 leading-6 mb-5">I have completed my Bachelor’s and Master’s degrees, gaining strong academic knowledge, critical thinking skills, and a solid professional foundation.</p>
                         </div>
                         <div className=' md:px-15  md:py-2'>
-                            <div className='flex flex-col justify-between text-white md:space-y-[20px] space-y-[20px]'>
+                            <div className='flex flex-col justify-between text-text md:space-y-[20px] space-y-[20px]'>
                                 <div className='flex w-[100%] bg-gray-200/10 px-5 py-8 rounded-2xl cursor-pointer transition-all duration-100 hover:shadow-[0px_0px_10px_rgba(12,241,153,.5)]'>
                                     <div className='w-[20%]'>
                                         <FcGraduationCap className='md:text-8xl text-5xl ' />
                                     </div>
                                     <div className='w-[80%]'>
-                                        <h3 className='md:text-[28px] text-[18px] text-[#0cf199] font-semibold'>MERN Stack Developer</h3>
-                                        <h2 className='md:text-[16px] text-[10px] text-white/80 capitalize font-medium md:w-[350px] w-[220px]'>Creative It Institute, Dhanmondi, Dhaka, Bangladesh.</h2>
-                                        <h2 className='md:text-[16px] text-[10px] text-[#c9c4c4]/80 capitalize font-medium'><i>2025-26</i></h2>
-                                        <h2 className='md:text-[14px] text-[8px] text-[#c9c4c4] capitalize font-medium md:w-[350px] w-[220px] mt-1'>Completed graduation in Bangla Literature with strong skills in analysis and critical thinking.</h2>
+                                        <h3 className='md:text-[28px] text-[18px] text-heading font-semibold'>MERN Stack Developer</h3>
+                                        <h2 className='md:text-[16px] text-[10px] text-text capitalize font-medium md:w-[350px] w-[220px]'>Creative It Institute, Dhanmondi, Dhaka, Bangladesh.</h2>
+                                        <h2 className='md:text-[16px] text-[10px] text-secondary capitalize font-medium'><i>2025-26</i></h2>
+                                        <h2 className='md:text-[14px] text-[8px] text-secondary capitalize font-medium md:w-[350px] w-[220px] mt-1'>MERN Stack Development course completed with hands-on experience in full-stack web applications.</h2>
                                     </div>
                                 </div>
                                 <div className='flex w-[100%] bg-gray-200/10 px-5 py-8 rounded-2xl cursor-pointer transition-all duration-100 hover:shadow-[0px_0px_10px_rgba(12,241,153,.5)]'>
@@ -92,10 +92,10 @@ const About = () => {
                                         <FcGraduationCap className='md:text-8xl text-5xl ' />
                                     </div>
                                     <div className='w-[80%]'>
-                                        <h3 className='md:text-[28px] text-[18px] text-[#0cf199] font-semibold'>Master's of Arts (M.A)</h3>
-                                        <h2 className='md:text-[16px] text-[10px] text-white/80 capitalize font-medium md:w-[350px] w-[220px]'>govt. titumir college, Mohakhali, Dhaka, Bangladesh.</h2>
-                                        <h2 className='md:text-[16px] text-[10px] text-[#c9c4c4]/80 capitalize font-medium'><i>2024-25</i></h2>
-                                        <h2 className='md:text-[14px] text-[8px] text-[#c9c4c4] capitalize font-medium md:w-[350px] w-[220px] mt-1'>Completed graduation in Bangla Literature with strong skills in analysis and critical thinking.</h2>
+                                        <h3 className='md:text-[28px] text-[18px] text-heading font-semibold'>Master's of Arts (M.A)</h3>
+                                        <h2 className='md:text-[16px] text-[10px] text-text capitalize font-medium md:w-[350px] w-[220px]'>govt. titumir college, Mohakhali, Dhaka, Bangladesh.</h2>
+                                        <h2 className='md:text-[16px] text-[10px] text-secondary capitalize font-medium'><i>2024-25</i></h2>
+                                        <h2 className='md:text-[14px] text-[8px] text-secondary capitalize font-medium md:w-[350px] w-[220px] mt-1'>Completed graduation in Bangla Literature with strong skills in analysis and critical thinking.</h2>
                                     </div>
                                 </div>
                                 <div className='flex w-[100%] bg-gray-200/10 px-5 py-8 rounded-2xl cursor-pointer transition-all duration-100 hover:shadow-[0px_0px_10px_rgba(12,241,153,.5)]'>
@@ -103,22 +103,11 @@ const About = () => {
                                         <FcGraduationCap className='md:text-8xl text-5xl' />
                                     </div>
                                     <div className='w-[80%]'>
-                                        <h3 className='md:text-[28px] text-[18px] text-[#0cf199] font-semibold'>Bachelor of Arts (B.A)</h3>
-                                        <h2 className='md:text-[16px] text-[10px] text-white/80 capitalize font-medium md:w-[350px] w-[220px]'>govt. titumir college, Mohakhali, Dhaka, Bangladesh.</h2>
-                                        <h2 className='md:text-[16px] text-[10px] text-[#c9c4c4]/80 capitalize font-medium'><i>2019-23</i></h2>
-                                        <h2 className='md:text-[14px] text-[8px] text-[#c9c4c4] capitalize font-medium md:w-[350px] w-[220px]
+                                        <h3 className='md:text-[28px] text-[18px] text-heading font-semibold'>Bachelor of Arts (B.A)</h3>
+                                        <h2 className='md:text-[16px] text-[10px] text-text capitalize font-medium md:w-[350px] w-[220px]'>govt. titumir college, Mohakhali, Dhaka, Bangladesh.</h2>
+                                        <h2 className='md:text-[16px] text-[10px] text-secondary capitalize font-medium'><i>2019-23</i></h2>
+                                        <h2 className='md:text-[14px] text-[8px] text-secondary capitalize font-medium md:w-[350px] w-[220px]
                                                             mt-1'>Graduated in Bangla Literature, with a deep interest in language, culture, and literary studies</h2>
-                                    </div>
-                                </div>
-                                <div className='flex w-[100%] bg-gray-200/10 px-5 py-8 rounded-2xl cursor-pointer transition-all duration-100 hover:shadow-[0px_0px_10px_rgba(12,241,153,.5)]'>
-                                    <div className='w-[20%]'>
-                                        <FcGraduationCap className='md:text-8xl text-5xl' />
-                                    </div>
-                                    <div className='w-[80%]'>
-                                        <h3 className='md:text-[28px] text-[18px] text-[#0cf199] font-semibold w-[100%] leading-7'>Higher Secondary Certificate(H.S.C)</h3>
-                                        <h2 className='md:text-[16px] text-[10px] text-white/80 capitalize font-medium md:w-[350px] w-[220px]'>Samir Uddin Smrity College, Thakurgaon, Dhaka, Bangladesh.</h2>
-                                        <h2 className='md:text-[16px] text-[10px] text-[#c9c4c4]/80 capitalize font-medium'><i>2017-18</i></h2>
-                                        <h2 className='md:text-[14px] text-[8px] text-[#c9c4c4] capitalize font-medium md:w-[350px] w-[220px] mt-1'>Successfully completed HSC in Humanities with focus on social sciences and literature.</h2>
                                     </div>
                                 </div>
                             </div>
@@ -127,31 +116,31 @@ const About = () => {
 
                     <div className='md:w-[100%] bg-transparent md:px-10 rounded-tr-2xl rounded-br-2xl md:py-15 mt-5'>
                         <div className='md:px-5 md:py-2 text-center'>
-                            <h2 className="md:text-3xl text-2xl font-semibold text-[#0cf199] md:mb-5">Extra Information</h2>
-                            <p className="md:text-[14px] text-[13px] text-[#c9c4c4] md:mt-[20px] mt-[10px] md:leading-7 leading-6 mb-5">Creative frontend developer building modern, responsive, and interactive web experiences.</p>
+                            <h2 className="md:text-3xl text-2xl font-semibold text-heading md:mb-5">Extra Information</h2>
+                            <p className="text-sm sm:text-base md:text-lg text-text md:mt-[20px] mt-[10px] md:leading-7 leading-6 mb-5">Creative frontend developer building modern, responsive, and interactive web experiences.</p>
                         </div>
                         <div className='min-h-fit md:px-15 py-2'>
-                            <div className='flex flex-col md:flex-row items-start md:items-center justify-between text-white  gap-5 md:gap-10'>
+                            <div className='flex flex-col md:flex-row items-start md:items-center justify-between  gap-5 md:gap-10 text-secondary'>
                                 <div className='flex flex-col md:space-y-10 space-y-5 tracking-[.75px] md:w-[50%] md:px-2 md:py-5'>
-                                    <h3 className='md:text-[18px] text-[16px] text-white font-semibold capitalize'><span className='md:text-[24px] text-[14px] text-[#c9c4c4] capitalaize mr-5'>name </span> shahzahan siraj</h3>
-                                    <h3 className='md:text-[18px] text-[16px] text-white font-semibold '><span className='md:text-[24px] text-[14px] text-[#c9c4c4] capitalaize md:mr-5 me-2'>github</span><a
+                                    <h3 className='md:text-[18px] text-[16px] font-semibold capitalize'><span className='md:text-[24px] text-[14px] capitalaize mr-5'>name </span> shahzahan siraj</h3>
+                                    <h3 className='md:text-[18px] text-[16px] font-semibold '><span className='md:text-[24px] text-[14px] capitalaize md:mr-5 me-2'>Github</span><a
                                         href="https://github.com/shahzahandev"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         github.com/shahzahandev
                                     </a></h3>
-                                    <h3 className='md:text-[18px] text-[16px] text-white font-semibold capitalize'><span className='md:text-[24px] text-[14px] text-[#c9c4c4] capitalaize mr-5'>Nationality </span> bangladeshi</h3>
-                                    <h3 className='md:text-[18px] text-[16px] text-white font-semibold capitalize'><span className='md:text-[24px] text-[14px] text-[#c9c4c4] capitalaize mr-5'>Freelance </span> Available</h3>
+                                    <h3 className='md:text-[18px] text-[16px] font-semibold capitalize'><span className='md:text-[24px] text-[14px] capitalaize mr-5'>Nationality </span> bangladeshi</h3>
+                                    <h3 className='md:text-[18px] text-[16px] font-semibold capitalize'><span className='md:text-[24px] text-[14px] capitalaize mr-5'>Freelance </span> Available</h3>
                                 </div>
                                 <div className='flex flex-col md:space-y-10 space-y-5 md:w-[50%] md:px-1 md:py-5 md:mt-0 mt-3'>
-                                    <h3 className='md:text-[18px] text-[14px] text-white font-semibold capitalize'><span className='md:text-[24px] text-[14px] text-[#c9c4c4] capitalaize mr-5'>phone </span> 01785-405909</h3>
-                                    <h3 className='md:text-[18px] text-[16px] text-white font-semibold capitalize'><span className='md:text-[24px] text-[14px] text-[#c9c4c4] capitalaize mr-5'>Experience </span> One Year</h3>
+                                    <h3 className='md:text-[18px] text-[14px] font-semibold capitalize'><span className='md:text-[24px] text-[14px] capitalaize mr-5'>phone </span> 01785-405909</h3>
+                                    <h3 className='md:text-[18px] text-[16px] font-semibold capitalize'><span className='md:text-[24px] text-[14px] capitalaize mr-5'>Experience </span> One Year</h3>
 
-                                    <h3 className='md:text-[18px] text-[16px] text-white font-semibold '><span className='md:text-[24px] text-[14px] text-[#c9c4c4] capitalaize mr-4'>email </span><a href="mailto:shahzahansiraj516@gmail.com">
+                                    <h3 className='md:text-[18px] text-[16px] font-semibold '><span className='md:text-[24px] text-[14px] capitalaize mr-4'>email </span><a href="mailto:shahzahansiraj516@gmail.com">
                                         shahzahansiraj516@gmail.com
                                     </a></h3>
-                                    <h3 className='md:text-[18px] text-[16px] text-white font-semibold capitalize'><span className='md:text-[24px] text-[14px] text-[#c9c4c4] capitalaize mr-5'>languages </span> Bangla, Hindi, English</h3>
+                                    <h3 className='md:text-[18px] text-[16px] font-semibold capitalize'><span className='md:text-[24px] text-[14px] capitalaize mr-5'>languages </span> Bangla, Hindi, English</h3>
                                 </div>
                             </div>
                         </div>
