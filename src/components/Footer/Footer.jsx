@@ -7,9 +7,62 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
+import { useState } from 'react';
+
+// import axios from 'axios';
 
 const Footer = () => {
+
+    let [sendData, setSendData] = useState({
+        name: "",
+        email: "",
+        comment: ""
+    });
+    const [err, setErr] = useState("");
+    const [msg, setMsg] = useState("");
+
+    const [loding, setLoding] = useState(false);
+
+    let handleChange = (e) => {
+        setSendData({ ...sendData, [e.target.name]: e.target.value })
+        console.log('data', sendData)
+    }
+
+    let handleSubmit = async () => {
+        setLoding(true)
+
+        const res = await fetch("http://localhost:5000/api/client/message", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(sendData)
+        });
+
+
+
+        const data = await res.json();
+
+
+        if (data.success == false) {
+            setErr(data.message);
+        } else {
+            setErr("")
+            setMsg(data.message);
+            setSendData({
+                name: "",
+                email: "",
+                comment: ""
+            });
+        }
+        setLoding(false)
+
+    }
+
+
     return (
+
+
         <>
             <div className='bg-primary md:pt-[120px] pt-[50px] md:pb-[10px] pb-[10px] tracking-[1px] font-primary'>
                 <Container>
@@ -55,23 +108,29 @@ const Footer = () => {
                                     <p className="md:text-[16px] text-[12px] text-text md:leading-7 leading-6 mb-5 md:w-auto w-[350px] mx-auto md:text-start text-center">Whether you have a specific project in mind or just want to chat about the latest tech, I'm always open to new conversations.</p>
                                 </div>
                                 <div className='flex flex-col space-y-3'>
-                                    <input type="text" placeholder='Full name' className='text-white border border-gray-300 rounded-[10px] px-5 py-4  cursor-pointer md:text-[18px] text-[12px] outline-none  focus:border-heading focus:ring-2 focus:ring-[#0cf199]/40' />
-                                    <input type="text" placeholder='Email address ' className='text-text border border-gray-300 rounded-[10px] px-5 py-4  cursor-pointer md:text-[18px] text-[12px] outline-none focus:border-heading focus:ring-2 focus:ring-[#0cf199]/40 ' />
+                                    <input name="name" value={sendData.name} onChange={handleChange} type="text" placeholder='Full name' className='text-white border border-gray-300 rounded-[10px] px-5 py-4  cursor-pointer md:text-[18px] text-[12px] outline-none  focus:border-heading focus:ring-2 focus:ring-[#0cf199]/40' />
+                                    <input name="email" value={sendData.email} onChange={handleChange} type="text" placeholder='Email address ' className='text-text border border-gray-300 rounded-[10px] px-5 py-4  cursor-pointer md:text-[18px] text-[12px] outline-none focus:border-heading focus:ring-2 focus:ring-[#0cf199]/40 ' />
                                     <div>
                                         <label className="font-medium text-white md:text-[16px] text-[14px]">
                                             Add a comment
                                         </label>
                                         <textarea
-                                            rows="4"
+                                            name="comment" value={sendData.comment} onChange={handleChange} rows="4"
                                             placeholder="Write your comment..."
                                             className="mt-2 w-full resize-none rounded-[10px] text-secondary border border-gray-300 p-3 md:text-[18px] text-[12px]
                                     focus:border-[#0cf199] focus:ring-2 focus:ring-[#0cf199]/20 
                                       outline-none transition"
                                         ></textarea>
                                     </div>
+                                    <p style={{ color: err ? "red" : "green" }} className="md:text-[16px] text-[14px] md:leading-7 leading-6 mb-5 md:w-auto w-[350px] mx-auto md:text-start text-center">{err ? err : msg}</p>
                                     <div className='flex justify-center text-center w-full'>
-                                        <button className="text-black py-[13px] border-2 w-full border-heading rounded-[10px] md:text-[18px]
+                                        {
+                                            loding ? <button className="text-black py-[13px] border-2 w-full border-heading rounded-[10px] md:text-[18px]
+                                        text-[14px] font-extrabold bg-heading transition-all duration-300 ease-in hover:text-heading hover:bg-transparent text-center cursor-pointer hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]"> Message sending</button> :
+                                                <button onClick={handleSubmit} className="text-black py-[13px] border-2 w-full border-heading rounded-[10px] md:text-[18px]
                                         text-[14px] font-extrabold bg-heading transition-all duration-300 ease-in hover:text-heading hover:bg-transparent text-center cursor-pointer hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">Send a Message</button>
+                                        }
+
                                     </div>
                                 </div>
                                 <div className="font-main text-white md:mt-10 mt-6 md:hidden block">
