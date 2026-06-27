@@ -35,7 +35,7 @@ const Navbar = () => {
                                 <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/skill" >Work</NavLink>
                             </li>
                             <li >
-                                <NavLink to="/footer" className={(e) => { return e.isActive ? "red" : "" }}>  <button className="font-semibold text-[16px] border-2 border-white py-[10px] px-[31px] text-black bg-heading rounded-[50px] cursor-pointer transition-all duration-300 ease-in hover:bg-transparent hover:text-heading hover:border-heading hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]" >Hire me</button></NavLink>
+                                <NavLink to="/footer" className={(e) => { return e.isActive ? "red" : "" }}>  <button className="font-semibold text-[16px] border-2 py-[10px] px-[31px] text-black bg-heading rounded-[50px] cursor-pointer transition-all duration-300 ease-in hover:bg-transparent hover:text-heading hover:border-heading hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]" >Hire me</button></NavLink>
                             </li>
                         </ul>
                     </div>

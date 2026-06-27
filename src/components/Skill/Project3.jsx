@@ -10,8 +10,8 @@ const Project3 = () => {
                     <div className='flex md:justify-between md:flex-row flex-col items-center md:space-x-[50px] space-y-0'>
                         <div className='md:w-[50%] md:border-b-2 border-secondary md:pb-10 pb-5 md:px-0'>
                             <h3 className='md:text-8xl text-4xl text-text uppercase font-bold'>06</h3>
-                            <h2 className='md:text-4xl text-2xl text-heading font-bold md:mt-[20px] mt-2'> Guess Game</h2>
-                            <p className='md:mt-[20px] mt-[10px] md:text-[16px] text-[12px] font-medium text-text md:w-auto w-[350px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere voluptate harum iste id non et temporibusagni dignptates consequatur in quae officiis dolorem deleniti amet?</p>
+                            <h2 className='md:text-4xl text-2xl text-heading font-bold md:mt-[20px] mt-2'> Guess the number</h2>
+                            <p className='md:mt-[20px] mt-[10px] md:text-[16px] text-[12px] font-medium text-text md:w-auto w-[350px]'>An interactive number guessing game built with HTML, CSS, and JavaScript, featuring random number generation, score tracking, and instant user feedback.</p>
                             <div className='md:mt-5 mt-2 flex items-center space-x-10 text-secondary'>
                                 <h2 className='md:text-[18px] text-[12px] font-semibold'>HTML</h2>
                                 <h2 className='md:text-[18px] text-[12px] font-semibold'>CSS</h2>

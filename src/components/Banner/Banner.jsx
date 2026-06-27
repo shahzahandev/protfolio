@@ -1,110 +1,7 @@
-// import banner1 from "../../assets/bannerChat.png"
-// import Container from '../Container/Container'
-// import { FaFacebookF } from "react-icons/fa";
-// import { FaLinkedinIn } from "react-icons/fa6";
-// import { FaGithub } from "react-icons/fa";
-// import { BsDownload } from "react-icons/bs";
-// import { FaTwitter } from "react-icons/fa";
-// import About from '../About/About'
-// import Footer from "../Footer/Footer";
-// import Work from "../Skill/Work";
-// import Education from "../Education/Education";
-// import { FaArrowRightLong } from "react-icons/fa6";
-// import { NavLink } from "react-router"
-// import { useEffect, useState } from "react";
-
-// const Banner = () => {
-
-//   return (
-//     <>
-//       <div className="bg-primary font-primary pt-24 md:pt-32 lg:pt-36 pb-16 md:pb-20 overflow-hidden">
-//         <Container>
-//           <div className="flex flex-col items-center text-center px-4">
-//             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold text-heading leading-tight">
-//               Shahzahan Siraj
-//             </h1>
-//             <h3 className="mt-4 text-lg sm:text-2xl md:text-3xl lg:text-5xl text-secondary">
-//               I'm a{" "}
-//               <span className="text font-semibold block sm:inline">
-//                 Frontend Developer
-//               </span>
-//             </h3>
-//             <p className="max-w-xs sm:max-w-xl md:max-w-3xl lg:max-w-4xl mt-5 md:mt-6 text-sm sm:text-base md:text-lg text-secondary leading-6 md:leading-8">
-//               I specialize in creating pixel-perfect, high-performance websites and
-//               web applications using modern technologies like HTML, CSS, Bootstrap,
-//               Tailwind CSS, JavaScript, Firebase, Redux, React Router, Hooks, and
-//               React.
-//             </p>
-//             <div className="flex flex-col sm:flex-row items-center gap-4 md:gap-6 mt-8 md:mt-10 w-full sm:w-auto">
-//               <button
-//                 className="
-//           flex items-center justify-center
-//           w-full sm:w-auto
-//           px-8 md:px-10
-//           py-3
-//           border-2 border-heading
-//           rounded-full
-//           text-heading
-//           font-semibold
-//           transition-all duration-300
-//           hover:shadow-[0px_0px_15px_rgba(12,241,153,.8)]
-//           "
-//               >
-//                 DOWNLOAD CV
-//                 <BsDownload className="ml-3 text-lg animate-bounce" />
-//               </button>
-
-//               <NavLink to="/skill" className="w-full sm:w-auto">
-//                 <button
-//                   className="
-//             flex items-center justify-center
-//             w-full sm:w-auto
-//             px-8 md:px-10
-//             py-3
-//             border-2 border-heading
-//             rounded-full
-//             text-heading
-//             font-semibold
-//             transition-all duration-300
-//             hover:shadow-[0px_0px_15px_rgba(12,241,153,.8)]
-//             "
-//                 >
-//                   VIEW MY WORK
-//                   <FaArrowRightLong className="ml-3" />
-//                 </button>
-//               </NavLink>
-//             </div>
-//           </div>
-//         </Container>
-//       </div>
-//       <About />
-//       <Education>
-//         <Work></Work>
-//       </Education>
-//       <Work></Work>
-//       <Footer></Footer>
-//     </>
-//   )
-// }
-
-// export default Banner
-
-
-
-
-
-// 
-
-
-
-
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
-
-
-
 
 import Container from "../Container/Container";
 import About from "../About/About";
@@ -114,7 +11,6 @@ import Education from "../Education/Education";
 
 import { NavLink } from "react-router";
 import { BsDownload } from "react-icons/bs";
-// import { FaGithub, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Banner = () => {
@@ -123,14 +19,6 @@ const Banner = () => {
     { number: "API", label: "Backend Development" },
     { number: "UI", label: "Responsive Frontend" },
   ];
-
-  // const skills = [
-  //   "React.js",
-  //   "Node.js",
-  //   "Express.js",
-  //   "MongoDB",
-  //   "Tailwind CSS",
-  // ];
 
   const highlights = [
     "Single and multivendor ecommerce platforms",
@@ -167,12 +55,12 @@ const Banner = () => {
                 admin dashboards, and business management systems.
               </p>
               <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center lg:justify-start">
-                <button className="inline-flex min-h-12 w-full items-center justify-center rounded-full bg-heading px-8 font-bold text-primary transition-all duration-300 hover:shadow-[0px_0px_20px_rgba(12,241,153,.65)] sm:w-auto">
+                <button className="inline-flex min-h-12 w-full items-center justify-center rounded-full bg-heading hover:bg-transparent hover:text-heading border-2 px-8 font-bold text-primary transition-all duration-300 hover:shadow-[0px_0px_20px_rgba(12,241,153,.65)] sm:w-auto cursor-pointer">
                   Download CV
                   <BsDownload className="ml-3 text-lg" />
                 </button>
                 <NavLink to="/skill" className="w-full sm:w-auto">
-                  <button className="inline-flex min-h-12 w-full items-center justify-center rounded-full border-2 border-heading px-8 font-bold text-heading transition-all duration-300 hover:bg-heading hover:text-primary hover:shadow-[0px_0px_20px_rgba(12,241,153,.45)] sm:w-auto">
+                  <button className="inline-flex min-h-12 w-full items-center justify-center rounded-full border-2 border-heading px-8 font-bold text-heading transition-all duration-300 hover:bg-heading hover:text-primary hover:shadow-[0px_0px_20px_rgba(12,241,153,.45)] sm:w-auto cursor-pointer">
                     View My Work
                     <FaArrowRightLong className="ml-3" />
                   </button>
@@ -205,10 +93,6 @@ const Banner = () => {
                       <h3 className="mt-1 text-2xl font-bold text-heading">
                         Ecommerce & Backend Systems
                       </h3>
-                    </div>
-
-                    <div className="grid h-14 w-14 place-items-center rounded-2xl bg-heading text-2xl font-black text-primary">
-                      SS
                     </div>
                   </div>
 

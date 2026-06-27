@@ -177,7 +177,7 @@ const Education = () => {
                         </div>
                         <a
                             href="#contact"
-                            className="inline-flex min-h-12 items-center justify-center rounded-[25px] border-2 border-heading bg-gray-900 px-5 text-sm font-extrabold text-white no-underline transition hover:border-heading hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]"
+                            className="inline-flex min-h-12 items-center justify-center rounded-[25px] border-2 border-heading bg-heading px-5 text-sm font-extrabold text-black no-underline transition hover:bg-transparent hover:text-heading hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]"
                         >
                             Discuss Project
                         </a>

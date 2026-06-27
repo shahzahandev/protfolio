@@ -10,8 +10,8 @@ const Skill = () => {
                     <div className='flex md:justify-between md:flex-row flex-col items-center md:space-x-[50px] space-y-0'>
                         <div className='md:w-[50%] md:border-b-2 border-secondary md:pb-10 pb-5 md:px-0'>
                             <h3 className='md:text-8xl text-4xl text-white uppercase font-bold'>01</h3>
-                            <h2 className='md:text-4xl text-2xl text-heading font-bold md:mt-[20px] mt-2'>Real-Time Chat Application</h2>
-                            <p className='md:mt-[20px] mt-[10px] md:text-[16px] text-[12px] font-medium text-text md:w-auto w-[350px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere animi voluptate harum iste id non et temporibusagni dignptates consequatur in quae officiis dolorem deleniti?</p>
+                            <h2 className='md:text-4xl text-2xl text-heading font-bold md:mt-[20px] mt-2'>A Real-time chat application</h2>
+                            <p className='md:mt-[20px] mt-[10px] md:text-[16px] text-[12px] font-medium text-text md:w-auto w-[350px]'>A real-time chat application built with React.js, Tailwind CSS, Firebase, and JavaScript, featuring secure authentication, instant messaging, real-time database synchronization, responsive design, and a clean, user-friendly interface.</p>
                             <div className='md:mt-5 mt-2 flex items-center space-x-10 text-secondary'>
                                 <h2 className='md:text-[18px] text-[12px] font-semibold'>Taiwind</h2>
                                 <h2 className='md:text-[18px] text-[12px] font-semibold'>React</h2>

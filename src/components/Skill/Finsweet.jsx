@@ -11,7 +11,7 @@ const Finsweet = () => {
                         <div className='md:w-[50%] md:border-b-2 border-secondary md:pb-10 pb-5 md:px-0'>
                             <h3 className='md:text-8xl text-4xl text-text uppercase font-bold'>05</h3>
                             <h2 className='md:text-4xl text-2xl text-heading font-bold  md:mt-[20px] mt-2'>Finsweet</h2>
-                            <p className='md:mt-[20px] mt-[10px] md:text-[16px] text-[12px] font-medium text-text md:w-auto w-[350px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere animi voluptate harum iste id non et temporibusagni dignptates consequatur amet?</p>
+                            <p className='md:mt-[20px] mt-[10px] md:text-[16px] text-[12px] font-medium text-text md:w-auto w-[350px]'>A responsive Finsweet-inspired website created with HTML, CSS, and Bootstrap, showcasing clean layouts, reusable components, and a professional user interface.</p>
                             <div className='md:mt-5 mt-2 flex items-center space-x-10 text-secondary'>
                                 <h2 className='md:text-[18px] text-[12px] font-semibold'>HTML</h2>
                                 <h2 className='md:text-[18px] text-[12px] font-semibold'>CSS</h2>

@@ -71,7 +71,7 @@ const Footer = () => {
                                     </div>
                                     <div className='flex justify-center text-center w-full'>
                                         <button className="text-black py-[13px] border-2 w-full border-heading rounded-[10px] md:text-[18px]
-                                        text-[14px] font-extrabold bg-heading transition-all duration-300 ease-in hover:text-white hover:bg-transparent text-center cursor-pointer hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">Send a Message</button>
+                                        text-[14px] font-extrabold bg-heading transition-all duration-300 ease-in hover:text-heading hover:bg-transparent text-center cursor-pointer hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">Send a Message</button>
                                     </div>
                                 </div>
                                 <div className="font-main text-white md:mt-10 mt-6 md:hidden block">

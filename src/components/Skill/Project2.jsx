@@ -11,7 +11,7 @@ const Project2 = () => {
                         <div className='md:w-[50%] md:border-b-2 border-secondary md:pb-10 pb-5 md:px-0'>
                             <h3 className='md:text-8xl text-4xl text-text uppercase font-bold'>02</h3>
                             <h2 className='md:text-4xl text-2xl text-heading font-bold  md:mt-[20px] mt-2'>Innovate</h2>
-                            <p className='md:mt-[20px] mt-[10px] md:text-[16px] text-[12px] font-medium text-text md:w-auto w-[350px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere animi voluptate harum iste id non et temporibusagni dignptates consequatur amet?</p>
+                            <p className='md:mt-[20px] mt-[10px] md:text-[16px] text-[12px] font-medium text-text md:w-auto w-[350px]'>A modern and responsive landing page developed using React, Tailwind CSS, and JavaScript, focusing on clean design, smooth navigation, and enhanced user experience.</p>
                             <div className='md:mt-5 mt-2 flex items-center space-x-10 text-secondary'>
                                 <h2 className='md:text-[18px] text-[12px] font-semibold'>JavaScript</h2>
                                 <h2 className='md:text-[18px] text-[12px] font-semibold'>Taiwind</h2>
