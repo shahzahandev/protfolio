@@ -9,8 +9,6 @@ import { FaGithub } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { useState } from 'react';
 
-// import axios from 'axios';
-
 const Footer = () => {
 
     let [sendData, setSendData] = useState({
@@ -31,14 +29,13 @@ const Footer = () => {
     let handleSubmit = async () => {
         setLoding(true)
 
-        const res = await fetch("http://localhost:5000/api/client/message", {
+        const res = await fetch("https://protfoliodata-2.onrender.com/api/client/message", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(sendData)
         });
-
 
 
         const data = await res.json();
