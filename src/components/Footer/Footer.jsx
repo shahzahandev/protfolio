@@ -142,7 +142,7 @@ const Footer = () => {
                                             <a href="https://github.com/shahzahandev"><FaGithub className='' /></a>
                                         </li>
                                         <li className="relative border-2 rounded-[50%] p-2 text-[24px] transition-all duration-100 ease-in hover:shadow-[0px_0px_10px_rgba(12,241,153,1)]">
-                                            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl"><BiLogoGmail className='' /></a>
+                                            <a href=""><BiLogoGmail className='' /></a>
                                         </li>
                                     </ul>
                                 </div>
